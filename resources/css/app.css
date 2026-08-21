@@ -3022,26 +3022,54 @@ a:hover {
         justify-content: center;
     }
 
-    /* Promotional Showcase Section (Mobile 2-Column Reduced Height Layout) */
+    /* Promotional Showcase Section (Mobile 2-Column Matching Industries We Serve Card Properties) */
     .gh-promo-section {
-        padding: 1.75rem 0;
+        padding: 2.25rem 0;
     }
 
     .gh-promo-card {
         position: relative;
-        height: 180px;
-        min-height: 180px;
+        height: 100%;
+        min-height: auto;
         border-radius: 10px;
-        padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+        padding: 0.85rem 0.6rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        text-align: left;
+        align-items: center;
+        text-align: center;
         overflow: hidden;
         background-color: #FFFFFF;
-        box-shadow: 0 3px 12px rgba(11, 16, 58, 0.05);
+        box-shadow: 0 4px 16px rgba(11, 16, 58, 0.05);
         border: 1px solid #E2E8F0;
+    }
+
+    .gh-promo-img-wrap {
+        position: relative;
+        inset: auto;
+        right: auto;
+        bottom: auto;
+        width: 100%;
+        height: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        margin-bottom: 0.5rem;
+        pointer-events: none;
+        z-index: 1;
+        opacity: 1;
+        order: 1;
+    }
+
+    .gh-promo-img {
+        max-height: 105px;
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+        object-position: center;
+        display: block;
     }
 
     .gh-promo-card-body {
@@ -3049,50 +3077,52 @@ a:hover {
         z-index: 2;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        text-align: left;
+        align-items: center;
+        text-align: center;
         height: 100%;
         width: 100%;
-        pointer-events: none;
+        pointer-events: auto;
+        order: 2;
     }
 
     .gh-promo-text-wrap {
         width: 100%;
-        max-width: 65%;
-        text-align: left;
+        max-width: 100%;
+        text-align: center;
         padding: 0;
+        margin-bottom: 0.5rem;
     }
 
     .gh-promo-title {
-        font-size: 0.78rem;
+        font-size: 0.75rem;
         font-weight: 800;
-        line-height: 1.1;
-        margin-bottom: 0.05rem;
+        line-height: 1.2;
+        margin-bottom: 0.1rem;
         color: var(--gh-navy);
-        text-align: left;
-    }
-
-    .gh-promo-subtitle {
-        font-size: 0.58rem;
-        font-weight: 800;
-        text-transform: uppercase;
-        margin-bottom: 0.2rem;
-        color: var(--gh-navy);
-        text-align: left;
+        text-align: center;
         letter-spacing: 0.2px;
     }
 
+    .gh-promo-subtitle {
+        font-size: 0.65rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 0.35rem;
+        color: var(--gh-navy);
+        text-align: center;
+        letter-spacing: 0.3px;
+    }
+
     .gh-promo-desc {
-        font-size: 0.55rem;
-        font-weight: 600;
-        line-height: 1.2;
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 1.35;
         color: #475569;
-        text-align: left;
+        text-align: center;
     }
 
     .gh-promo-desc br {
-        display: block;
+        display: none;
     }
 
     .gh-promo-btn-wrap {
@@ -3100,7 +3130,7 @@ a:hover {
         z-index: 2;
         width: 100%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         margin-top: auto;
         pointer-events: auto;
@@ -3110,42 +3140,22 @@ a:hover {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        gap: 0.25rem;
-        font-size: 0.54rem;
-        font-weight: 800;
-        padding: 0.28rem 0.45rem;
-        width: auto;
-        max-width: 100%;
-        text-align: left;
-        border-radius: 4px;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+        gap: 0.35rem;
+        font-size: 0.68rem;
+        font-weight: 700;
+        padding: 0.4rem 0.6rem;
+        width: 100%;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
         background-color: #FFFFFF;
         border: 1px solid #CBD5E1;
         color: var(--gh-navy);
-        white-space: nowrap;
+        text-transform: none;
     }
 
     .btn-gh-promo span {
-        white-space: nowrap;
-    }
-
-    .gh-promo-img-wrap {
-        position: absolute;
-        right: -6px;
-        bottom: -4px;
-        width: 65%;
-        height: 72%;
-        pointer-events: none;
-        z-index: 1;
-        opacity: 1;
-    }
-
-    .gh-promo-img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        object-position: right bottom;
-        max-height: 100%;
+        white-space: normal;
     }
 
     /* Industries We Serve Section */
