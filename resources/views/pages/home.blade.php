@@ -258,7 +258,7 @@
             <div class="d-none d-lg-block gh-trust-divider"></div>
 
             <!-- Item 5: MADE IN THE USA (Official US Flag) -->
-            <div class="col-6 col-md-4 col-lg gh-trust-col">
+            <div class="col-12 col-md-4 col-lg gh-trust-col d-flex justify-content-center">
                 <div class="gh-trust-item d-flex align-items-center">
                     <div class="gh-trust-flag">
                         <svg width="36" height="24" viewBox="0 0 60 36" style="border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.35); display: block;">
