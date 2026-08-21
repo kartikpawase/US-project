@@ -68,25 +68,28 @@
 
     <!-- Main Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-white gh-navbar shadow-sm py-2">
-        <div class="gh-container d-flex align-items-center justify-content-between">
-            <!-- Brand Logo (Full Official Logo Image) -->
-            <a class="navbar-brand py-0 text-decoration-none" href="{{ url('/') }}">
-                <img src="{{ asset('assets/images/logo.png') }}" alt="Guardian Health" class="gh-navbar-logo" height="42">
-            </a>
+        <div class="gh-container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
+            
+            <!-- Top Locked Row for Brand Logo & Mobile Toggler -->
+            <div class="gh-nav-header-row d-flex align-items-center justify-content-between w-100 w-lg-auto">
+                <a class="navbar-brand py-0 my-0 text-decoration-none d-flex align-items-center" href="{{ url('/') }}">
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="Guardian Health" class="gh-navbar-logo" height="42">
+                </a>
 
-            <!-- Mobile Navbar Toggler -->
-            <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="collapse" data-bs-target="#ghNavbarContent" aria-controls="ghNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Mobile Navbar Toggler -->
+                <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="collapse" data-bs-target="#ghNavbarContent" aria-controls="ghNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
-            <!-- Navigation Links & CTA -->
-            <div class="collapse navbar-collapse" id="ghNavbarContent">
+            <!-- Navigation Links & CTA (Expands below top row on mobile) -->
+            <div class="collapse navbar-collapse w-100 w-lg-auto" id="ghNavbarContent">
                 <ul class="navbar-nav mx-auto align-items-lg-center gap-lg-1 gap-xl-2 py-3 py-lg-0">
                     <li class="nav-item">
                         <a class="nav-link gh-nav-link active" aria-current="page" href="{{ url('/') }}">HOME</a>
                     </li>
                     <li class="nav-item dropdown gh-dropdown">
-                        <a class="nav-link gh-nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" id="navbarProductsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link gh-nav-link dropdown-toggle d-flex align-items-center gap-1" href="#portfolio" id="navbarProductsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             PRODUCTS
                             <svg class="gh-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
@@ -94,7 +97,7 @@
                         </a>
                         <ul class="dropdown-menu gh-dropdown-menu shadow-lg border-0" aria-labelledby="navbarProductsDropdown">
                             <li>
-                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#">
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#portfolio">
                                     <span class="gh-dropdown-dot" style="background-color: #0A6EFF;"></span>
                                     <div>
                                         <strong class="d-block gh-dropdown-title">Hydrate Elite™</strong>
@@ -103,7 +106,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#">
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#portfolio">
                                     <span class="gh-dropdown-dot" style="background-color: #FF8A00;"></span>
                                     <div>
                                         <strong class="d-block gh-dropdown-title">Ignite™</strong>
@@ -112,7 +115,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#">
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#portfolio">
                                     <span class="gh-dropdown-dot" style="background-color: #B28228;"></span>
                                     <div>
                                         <strong class="d-block gh-dropdown-title">Royal™</strong>
@@ -121,7 +124,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#">
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#portfolio">
                                     <span class="gh-dropdown-dot" style="background-color: #990000;"></span>
                                     <div>
                                         <strong class="d-block gh-dropdown-title">Painex™</strong>
@@ -131,7 +134,7 @@
                             </li>
                             <li><hr class="dropdown-divider my-1"></li>
                             <li>
-                                <a class="dropdown-item gh-dropdown-item gh-dropdown-viewall d-flex align-items-center justify-content-between" href="#">
+                                <a class="dropdown-item gh-dropdown-item gh-dropdown-viewall d-flex align-items-center justify-content-between" href="#portfolio">
                                     <span>View All Products</span>
                                     <span>&rarr;</span>
                                 </a>
@@ -139,27 +142,27 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#">
+                        <a class="nav-link gh-nav-link" href="#promotions">
                             PRIVATE LABEL
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#">
+                        <a class="nav-link gh-nav-link" href="#industries-we-serve">
                             MANUFACTURING
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#">
+                        <a class="nav-link gh-nav-link" href="#quality-trust">
                             QUALITY
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#">
+                        <a class="nav-link gh-nav-link" href="#about-us">
                             ABOUT US
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#">
+                        <a class="nav-link gh-nav-link" href="#gh-footer">
                             CONTACT US
                         </a>
                     </li>

@@ -3092,3 +3092,180 @@ a:hover {
         text-align: center;
     }
 }
+
+/* ========================================
+   PROFESSIONAL RESPONSIVE BUTTONS & NAVIGATION FIXES
+======================================== */
+
+/* 1. Global Responsive Button System */
+.btn-gh,
+.btn-gh-primary,
+.btn-gh-outline,
+.btn-gh-green,
+.btn-gh-portfolio,
+.btn-gh-promo,
+.btn-gh-green-cta,
+.btn-gh-industry-cta,
+.btn-gh-partnership {
+    font-family: var(--gh-font-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Button Sizing Across Breakpoints */
+@media (max-width: 575.98px) {
+    .btn-gh,
+    .btn-gh-primary,
+    .btn-gh-outline,
+    .btn-gh-green,
+    .btn-gh-portfolio,
+    .btn-gh-promo,
+    .btn-gh-green-cta,
+    .btn-gh-industry-cta,
+    .btn-gh-partnership {
+        font-size: clamp(0.7rem, 3.2vw, 0.8rem) !important;
+        padding: 0.55rem 0.85rem !important;
+        width: 100% !important;
+        text-align: center !important;
+        white-space: normal !important;
+        word-break: break-word !important;
+    }
+
+    .gh-hero-actions {
+        width: 100% !important;
+        flex-direction: column !important;
+        gap: 0.65rem !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .btn-gh,
+    .btn-gh-primary,
+    .btn-gh-outline,
+    .btn-gh-green,
+    .btn-gh-portfolio,
+    .btn-gh-promo,
+    .btn-gh-green-cta,
+    .btn-gh-industry-cta,
+    .btn-gh-partnership {
+        font-size: 0.78rem !important;
+        padding: 0.6rem 1.1rem !important;
+    }
+}
+
+/* 2. Lock Header Row & Fix Hamburger / Logo Shift */
+.gh-nav-header-row {
+    flex-shrink: 0;
+    min-height: 44px;
+}
+
+.gh-navbar-logo {
+    height: 42px;
+    width: auto;
+    max-height: 42px;
+    object-fit: contain;
+    transition: height 0.2s ease;
+}
+
+@media (max-width: 991.98px) {
+    .gh-navbar-logo {
+        height: 34px !important;
+        max-height: 34px !important;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem !important;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .gh-navbar .navbar-collapse {
+        flex-basis: 100% !important;
+        width: 100% !important;
+        background-color: #FFFFFF !important;
+        margin-top: 0.75rem !important;
+        padding: 1rem 1.15rem !important;
+        border-top: 1px solid #E2E8F0 !important;
+        border-radius: 0 0 12px 12px !important;
+        box-shadow: 0 12px 28px rgba(11, 16, 58, 0.08) !important;
+    }
+
+    .gh-dropdown-menu {
+        position: static !important;
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0.5rem !important;
+        background-color: #F8FAFC !important;
+        border: 1px solid #E2E8F0 !important;
+        box-shadow: none !important;
+        transform: none !important;
+        border-radius: 8px !important;
+        padding: 0.5rem !important;
+    }
+}
+
+/* 3. Promotional Showcase Section Images Fix on Mobile */
+@media (max-width: 767.98px) {
+    .gh-promo-card {
+        height: auto !important;
+        min-height: auto !important;
+        flex-direction: column !important;
+        padding: 1.25rem 1rem !important;
+        position: relative !important;
+        overflow: hidden !important;
+    }
+
+    .gh-promo-text-wrap {
+        max-width: 100% !important;
+    }
+
+    .gh-promo-card-body {
+        height: auto !important;
+        pointer-events: auto !important;
+    }
+
+    .gh-promo-btn-wrap {
+        margin-top: 1rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .gh-promo-img-wrap,
+    .gh-promo-card-ignite .gh-promo-img-wrap,
+    .gh-promo-card-royal .gh-promo-img-wrap,
+    .gh-promo-card-painex .gh-promo-img-wrap,
+    .gh-promo-card-mfg .gh-promo-img-wrap {
+        position: relative !important;
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+        width: 100% !important;
+        height: 190px !important;
+        margin-top: 0.5rem !important;
+        pointer-events: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .gh-promo-img,
+    .gh-promo-card-ignite .gh-promo-img,
+    .gh-promo-card-royal .gh-promo-img,
+    .gh-promo-card-painex .gh-promo-img,
+    .gh-promo-card-mfg .gh-promo-img {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 190px !important;
+        object-fit: contain !important;
+        object-position: center !important;
+    }
+}
