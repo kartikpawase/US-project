@@ -71,8 +71,8 @@
             <div class="col-6 col-sm-3 col-lg-2 gh-footer-col">
                 <h4 class="gh-footer-col-title">COMPANY</h4>
                 <ul class="gh-footer-links list-unstyled mb-0">
-                    <li><a href="#about-us" class="gh-footer-link">About Us</a></li>
-                    <li><a href="#quality-trust" class="gh-footer-link">Quality</a></li>
+                    <li><a href="#" class="gh-footer-link">About Us</a></li>
+                    <li><a href="#" class="gh-footer-link">Quality</a></li>
                     <li><a href="#" class="gh-footer-link">Careers</a></li>
                     <li><a href="#" class="gh-footer-link">News &amp; Updates</a></li>
                     <li><a href="#" class="gh-footer-link">Resources</a></li>

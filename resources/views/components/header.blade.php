@@ -149,17 +149,17 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#quality-trust">
+                        <a class="nav-link gh-nav-link" href="#">
                             QUALITY
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#about-us">
+                        <a class="nav-link gh-nav-link" href="#">
                             ABOUT US
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#gh-footer">
+                        <a class="nav-link gh-nav-link" href="#">
                             CONTACT US
                         </a>
                     </li>
