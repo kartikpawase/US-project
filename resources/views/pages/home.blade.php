@@ -720,6 +720,130 @@
 </section>
 
 <!-- ========================================
+     INDUSTRIES WE SERVE SECTION (5-Card Row)
+======================================== -->
+<section class="gh-industries-section py-5" id="industries-we-serve">
+    <div class="gh-container py-lg-2">
+        
+        <!-- Section Header -->
+        <div class="text-center gh-industries-header mb-4 mb-lg-5">
+            <h2 class="gh-industries-title">INDUSTRIES WE SERVE</h2>
+            <div class="gh-industries-divider"></div>
+            <p class="gh-industries-intro">
+                We partner with brands across a variety of industries to create science-backed products that inspire health and well-being.
+            </p>
+        </div>
+
+        <!-- 5 Industry Cards in 1 Row -->
+        <div class="row g-3 g-xl-4 justify-content-center gh-industries-row mb-4 mb-lg-5">
+            
+            <!-- CARD 1: NUTRACEUTICALS -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+                <div class="gh-industry-card">
+                    <div class="gh-industry-icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="gh-industry-icon">
+                            <rect x="5" y="7" width="14" height="15" rx="3" stroke="#0B103A"/>
+                            <path d="M8 7V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3" stroke="#0B103A"/>
+                            <line x1="4" y1="7" x2="20" y2="7" stroke="#0B103A"/>
+                            <circle cx="12" cy="14.5" r="3" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.5"/>
+                            <path d="M12 12.5v4M10 14.5h4" stroke="#2E7032" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="gh-industry-card-title">NUTRACEUTICALS</h3>
+                    <div class="gh-industry-card-divider"></div>
+                    <p class="gh-industry-card-desc">
+                        Premium supplements and functional nutrition products for everyday wellness.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 2: BEAUTY & COSMETICS -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+                <div class="gh-industry-card">
+                    <div class="gh-industry-icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="gh-industry-icon">
+                            <rect x="7" y="9" width="10" height="13" rx="2" stroke="#0B103A"/>
+                            <path d="M10 9V5h4v4" stroke="#0B103A"/>
+                            <path d="M12 2v3" stroke="#2E7032" stroke-width="2"/>
+                            <path d="M12 13.5c-1 0-1.8.8-1.8 1.8a1.8 1.8 0 0 0 3.6 0c0-.9-.8-1.8-1.8-1.8z" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.5"/>
+                            <path d="M18 5l1.5 1.5M19.5 5L18 6.5" stroke="#2E7032" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="gh-industry-card-title">BEAUTY &amp; COSMETICS</h3>
+                    <div class="gh-industry-card-divider"></div>
+                    <p class="gh-industry-card-desc">
+                        Science-driven beauty solutions that support confidence and natural well-being.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 3: SPORTS NUTRITION -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+                <div class="gh-industry-card">
+                    <div class="gh-industry-icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="gh-industry-icon">
+                            <path d="M3 10v4M6 8v8M18 8v8M21 10v4" stroke="#0B103A"/>
+                            <rect x="6" y="11" width="12" height="2" fill="#0B103A" stroke="#0B103A"/>
+                            <polygon points="12 4 9.5 11 13 11 11.5 18 16 10 12.5 10 13.5 4" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="gh-industry-card-title">SPORTS NUTRITION</h3>
+                    <div class="gh-industry-card-divider"></div>
+                    <p class="gh-industry-card-desc">
+                        High-performance products designed to fuel athletes and active lifestyles.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 4: HEALTH & WELLNESS -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+                <div class="gh-industry-card">
+                    <div class="gh-industry-icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="gh-industry-icon">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="#0B103A"/>
+                            <path d="M12 7.5v6M9 10.5h6" stroke="#2E7032" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="gh-industry-card-title">HEALTH &amp; WELLNESS</h3>
+                    <div class="gh-industry-card-divider"></div>
+                    <p class="gh-industry-card-desc">
+                        Holistic wellness products that promote better health and quality of life.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 5: PHARMACEUTICAL -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+                <div class="gh-industry-card">
+                    <div class="gh-industry-icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="gh-industry-icon">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#0B103A"/>
+                            <rect x="9.5" y="8" width="5" height="8" rx="2.5" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.5"/>
+                            <line x1="9.5" y1="12" x2="14.5" y2="12" stroke="#2E7032" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="gh-industry-card-title">PHARMACEUTICAL</h3>
+                    <div class="gh-industry-card-divider"></div>
+                    <p class="gh-industry-card-desc">
+                        cGMP-compliant manufacturing for quality, safety, and regulatory excellence.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Center CTA Button -->
+        <div class="text-center gh-industries-cta-wrap">
+            <button type="button" class="btn-gh-industry-cta" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                <span>LET’S PARTNER</span>
+                <span class="btn-gh-arrow">→</span>
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================================
      QUALITY YOU CAN TRUST & PARTNERSHIP
 ======================================== -->
 <section class="gh-quality-trust-section" id="quality-trust">
