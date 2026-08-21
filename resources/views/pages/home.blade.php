@@ -415,7 +415,7 @@
         <div class="row g-2 g-md-3 g-lg-3 g-xl-4 justify-content-center gh-portfolio-row">
             
             <!-- CARD 1: HYDRATE ELITE™ -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-portfolio-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-portfolio-col">
                 <div class="gh-portfolio-card">
                     <div class="gh-portfolio-card-image">
                         <img src="{{ asset('assets/images/products/hydrate-elite.jpg') }}" alt="HYDRATE ELITE™" class="gh-portfolio-img" loading="lazy">
@@ -434,7 +434,7 @@
             </div>
 
             <!-- CARD 2: IGNITE™ ENERGY DRINK -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-portfolio-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-portfolio-col">
                 <div class="gh-portfolio-card">
                     <div class="gh-portfolio-card-image">
                         <img src="{{ asset('assets/images/products/ignite-energy.jpg') }}" alt="IGNITE™ ENERGY DRINK" class="gh-portfolio-img" loading="lazy">
@@ -453,7 +453,7 @@
             </div>
 
             <!-- CARD 3: ROYAL™ SKINCARE -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-portfolio-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-portfolio-col">
                 <div class="gh-portfolio-card">
                     <div class="gh-portfolio-card-image">
                         <img src="{{ asset('assets/images/products/royal-skincare.jpg') }}" alt="ROYAL™ SKINCARE" class="gh-portfolio-img" loading="lazy">
@@ -472,7 +472,7 @@
             </div>
 
             <!-- CARD 4: PAINEX™ PAIN RELIEVER -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-portfolio-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-portfolio-col">
                 <div class="gh-portfolio-card">
                     <div class="gh-portfolio-card-image">
                         <img src="{{ asset('assets/images/products/painex-pain-reliever.jpg') }}" alt="PAINEX™ PAIN RELIEVER" class="gh-portfolio-img" loading="lazy">
@@ -491,7 +491,7 @@
             </div>
 
             <!-- CARD 5: CONTRACT MANUFACTURING -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-portfolio-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-portfolio-col">
                 <div class="gh-portfolio-card">
                     <div class="gh-portfolio-card-image">
                         <img src="{{ asset('assets/images/products/contract-manufacturing.jpg') }}" alt="CONTRACT MANUFACTURING" class="gh-portfolio-img" loading="lazy">
@@ -529,7 +529,7 @@
         <div class="row g-2 g-md-3 g-lg-2 g-xl-3 justify-content-center gh-packaging-row">
             
             <!-- OPTION 01: STICK PACK -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-packaging-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-packaging-col">
                 <div class="gh-packaging-card">
                     <div class="gh-packaging-card-header">
                         <h3 class="gh-packaging-card-title">STICK PACK</h3>
@@ -542,7 +542,7 @@
             </div>
 
             <!-- OPTION 02: STAND-UP POUCH (10 STICKS) -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-packaging-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-packaging-col">
                 <div class="gh-packaging-card">
                     <div class="gh-packaging-card-header">
                         <h3 class="gh-packaging-card-title">STAND-UP POUCH</h3>
@@ -555,7 +555,7 @@
             </div>
 
             <!-- OPTION 03: STAND-UP POUCH (30 STICKS) -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-packaging-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-packaging-col">
                 <div class="gh-packaging-card">
                     <div class="gh-packaging-card-header">
                         <h3 class="gh-packaging-card-title">STAND-UP POUCH</h3>
@@ -568,7 +568,7 @@
             </div>
 
             <!-- OPTION 04: PDQ DISPLAY CARTON (15 STICKS) -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-packaging-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-packaging-col">
                 <div class="gh-packaging-card">
                     <div class="gh-packaging-card-header">
                         <h3 class="gh-packaging-card-title">PDQ DISPLAY CARTON</h3>
@@ -581,7 +581,7 @@
             </div>
 
             <!-- OPTION 05: PDQ DISPLAY CARTON (30 STICKS) -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-packaging-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-packaging-col">
                 <div class="gh-packaging-card">
                     <div class="gh-packaging-card-header">
                         <h3 class="gh-packaging-card-title">PDQ DISPLAY CARTON</h3>
@@ -742,7 +742,7 @@
         <div class="row g-3 g-xl-4 justify-content-center gh-industries-row mb-4 mb-lg-5">
             
             <!-- CARD 1: NUTRACEUTICALS -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/nutraceuticals.webp') }}" alt="Nutraceutical products" class="gh-industry-img img-fluid" loading="lazy">
@@ -756,7 +756,7 @@
             </div>
 
             <!-- CARD 2: BEAUTY & COSMETICS -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/beauty-cosmetics.webp') }}" alt="Beauty and cosmetics products" class="gh-industry-img img-fluid" loading="lazy">
@@ -770,7 +770,7 @@
             </div>
 
             <!-- CARD 3: SPORTS NUTRITION -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/sports-nutrition.webp') }}" alt="Sports nutrition products" class="gh-industry-img img-fluid" loading="lazy">
@@ -784,7 +784,7 @@
             </div>
 
             <!-- CARD 4: HEALTH & WELLNESS -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/health-wellness.webp') }}" alt="Health and wellness products" class="gh-industry-img img-fluid" loading="lazy">
@@ -798,7 +798,7 @@
             </div>
 
             <!-- CARD 5: PHARMACEUTICALS -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
+            <div class="col-6 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/pharmaceuticals.webp') }}" alt="Pharmaceutical products" class="gh-industry-img img-fluid" loading="lazy">
