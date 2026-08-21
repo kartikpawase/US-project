@@ -2282,6 +2282,27 @@ a:hover {
    Responsive Foundation
 ======================================== */
 @media (max-width: 991.98px) {
+    /* Lock top header row items on mobile so expanding menu never shifts logo or hamburger button */
+    .gh-navbar .gh-container {
+        align-items: flex-start !important;
+        flex-wrap: wrap !important;
+    }
+
+    .gh-navbar .navbar-brand {
+        height: 42px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .gh-navbar .navbar-toggler {
+        height: 42px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
     .gh-top-bar {
         font-size: 0.7rem;
     }
@@ -2302,6 +2323,9 @@ a:hover {
         padding-bottom: 1rem;
         border-top: 1px solid var(--gh-border);
         margin-top: 0.5rem;
+        width: 100% !important;
+        flex-basis: 100% !important;
+        order: 3 !important;
     }
 
     .gh-nav-link {
