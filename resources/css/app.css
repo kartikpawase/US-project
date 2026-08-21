@@ -3024,58 +3024,111 @@ a:hover {
 
     /* Promotional Showcase Section */
     .gh-promo-section {
-        padding: 2.25rem 0;
+        padding: 2rem 0;
     }
 
     .gh-promo-card {
-        padding: 0.75rem 0.65rem;
+        position: relative;
         height: 245px;
-        min-height: auto;
-        border-radius: 10px;
+        min-height: 245px;
+        border-radius: 12px;
+        padding: 0.85rem 0.6rem 0.65rem 0.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        background-color: #FFFFFF;
+    }
+
+    .gh-promo-card-body {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
     }
 
     .gh-promo-text-wrap {
+        width: 100%;
         max-width: 100%;
+        text-align: center;
+        padding: 0 0.1rem;
     }
 
     .gh-promo-title {
-        font-size: 0.82rem;
+        font-size: clamp(0.85rem, 3.6vw, 1.05rem);
+        font-weight: 800;
         line-height: 1.15;
-        margin-bottom: 0.1rem;
+        margin-bottom: 0.15rem;
+        color: var(--gh-navy);
+        text-align: center;
     }
 
     .gh-promo-subtitle {
-        font-size: 0.62rem;
+        font-size: clamp(0.62rem, 2.5vw, 0.72rem);
+        font-weight: 800;
+        text-transform: uppercase;
         margin-bottom: 0.25rem;
+        color: var(--gh-navy);
+        text-align: center;
     }
 
     .gh-promo-desc {
-        font-size: 0.62rem;
+        font-size: clamp(0.62rem, 2.4vw, 0.7rem);
         line-height: 1.25;
+        color: #334155;
+        text-align: center;
+    }
+
+    .gh-promo-desc br {
+        display: inline;
+    }
+
+    .gh-promo-btn-wrap {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        padding-top: 0.35rem;
     }
 
     .btn-gh-promo {
-        font-size: 0.62rem;
-        padding: 0.35rem 0.45rem;
-        width: 100%;
+        font-size: clamp(0.62rem, 2.5vw, 0.7rem);
+        padding: 0.4rem 0.6rem;
+        width: 92%;
+        max-width: 140px;
         justify-content: center;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        background-color: rgba(255, 255, 255, 0.95);
+        border: 1px solid #CBD5E1;
     }
 
     .gh-promo-img-wrap {
         position: absolute;
-        right: -5px;
-        bottom: -5px;
-        width: 60%;
-        height: 60%;
+        inset: 0;
+        width: 100%;
+        height: 100%;
         pointer-events: none;
         z-index: 1;
+        opacity: 0.3;
     }
 
     .gh-promo-img {
         width: 100%;
         height: 100%;
         object-fit: contain;
-        object-position: right bottom;
+        object-position: center bottom;
         max-height: 100%;
     }
 
