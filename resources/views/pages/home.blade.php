@@ -598,7 +598,7 @@
         <!-- Centered CTA -->
         <div class="gh-packaging-cta-wrap text-center mt-3 mt-lg-4">
             <button type="button" class="btn-gh-green-cta">
-                <span>View all Hydrate Elite™ products</span>
+                <span>View all hydrate elite™ products</span>
                 <span class="btn-gh-arrow">→</span>
             </button>
         </div>
