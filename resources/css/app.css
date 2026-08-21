@@ -138,11 +138,11 @@ a:hover {
 }
 
 .btn-gh-primary:hover {
-    background-color: var(--gh-blue);
-    border-color: var(--gh-blue);
+    background-color: #2e7d32;
+    border-color: #2e7d32;
     color: var(--gh-white);
     transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(10, 110, 255, 0.25);
+    box-shadow: 0 4px 14px rgba(46, 125, 50, 0.35);
 }
 
 /* Electric Blue Button */
@@ -793,11 +793,11 @@ a:hover {
 }
 
 .btn-gh-about:hover {
-    background-color: var(--gh-blue);
-    border-color: var(--gh-blue);
+    background-color: #2e7d32;
+    border-color: #2e7d32;
     color: var(--gh-white);
     transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(10, 110, 255, 0.25);
+    box-shadow: 0 4px 14px rgba(46, 125, 50, 0.35);
 }
 
 .btn-gh-about .btn-gh-arrow {
@@ -1113,10 +1113,10 @@ a:hover {
 }
 
 .btn-gh-portfolio:hover {
-    background-color: var(--gh-blue);
-    border-color: var(--gh-blue);
+    background-color: #2e7d32;
+    border-color: #2e7d32;
     color: var(--gh-white);
-    box-shadow: 0 4px 14px rgba(10, 110, 255, 0.3);
+    box-shadow: 0 4px 14px rgba(46, 125, 50, 0.35);
 }
 
 .btn-gh-portfolio .btn-gh-arrow {
@@ -1288,10 +1288,10 @@ a:hover {
 }
 
 .btn-gh-green-cta:hover {
-    background-color: #235927;
-    border-color: #235927;
+    background-color: #2e7d32;
+    border-color: #2e7d32;
     color: #FFFFFF;
-    box-shadow: 0 6px 18px rgba(46, 112, 50, 0.35);
+    box-shadow: 0 6px 18px rgba(46, 125, 50, 0.35);
     transform: translateY(-2px);
 }
 
@@ -1411,10 +1411,10 @@ a:hover {
 }
 
 .btn-gh-promo:hover {
-    background-color: var(--gh-navy);
+    background-color: #2e7d32;
     color: var(--gh-white);
-    border-color: var(--gh-navy);
-    box-shadow: 0 4px 12px rgba(11, 16, 58, 0.2);
+    border-color: #2e7d32;
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
     transform: translateY(-1px);
 }
 
@@ -1689,11 +1689,11 @@ a:hover {
 }
 
 .btn-gh-industry-cta:hover {
-    background-color: var(--gh-blue);
-    border-color: var(--gh-blue);
+    background-color: #2e7d32;
+    border-color: #2e7d32;
     color: var(--gh-white);
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(10, 110, 255, 0.25);
+    box-shadow: 0 6px 18px rgba(46, 125, 50, 0.35);
 }
 
 .btn-gh-industry-cta .btn-gh-arrow {
@@ -1886,10 +1886,10 @@ a:hover {
 }
 
 .btn-gh-partnership:hover {
-    background-color: var(--gh-green);
+    background-color: #2e7d32;
     color: var(--gh-white);
-    border-color: var(--gh-green);
-    box-shadow: 0 4px 12px rgba(46, 112, 50, 0.25);
+    border-color: #2e7d32;
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
     transform: translateY(-1px);
 }
 
