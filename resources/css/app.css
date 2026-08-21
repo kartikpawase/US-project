@@ -1714,49 +1714,30 @@ a:hover {
     border-color: rgba(46, 112, 50, 0.35);
 }
 
-.gh-industry-icon-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 64px;
-    margin-bottom: 1.25rem;
-}
-
-.gh-industry-svg {
-    display: block;
-    width: 56px;
-    height: 56px;
-    transition: transform 0.25s ease;
-}
-
-.gh-industry-card:hover .gh-industry-svg {
-    transform: scale(1.06);
-}
-
 .gh-industry-img-wrap {
     width: 100%;
-    height: 135px;
+    height: 165px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     border-radius: 8px;
     background-color: #FFFFFF;
-    margin-bottom: 0.85rem;
+    margin-bottom: 1.15rem;
 }
 
 .gh-industry-img {
-    max-height: 125px;
+    max-height: 155px;
     width: auto;
     max-width: 100%;
     object-fit: contain;
     display: block;
-    filter: drop-shadow(0 4px 12px rgba(11, 16, 58, 0.05));
+    filter: none;
     transition: transform 0.3s ease;
 }
 
 .gh-industry-card:hover .gh-industry-img {
-    transform: scale(1.04);
+    transform: scale(1.05);
 }
 
 .gh-industry-card-title {

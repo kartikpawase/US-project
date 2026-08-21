@@ -744,23 +744,6 @@
             <!-- CARD 1: NUTRACEUTICALS -->
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
-                    <div class="gh-industry-icon-wrap">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
-                            <!-- Bottle Cap & Neck -->
-                            <rect x="22" y="8" width="16" height="5" rx="1.5" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Bottle Body -->
-                            <path d="M25 13V17H19C16.8 17 15 18.8 15 21V46C15 48.2 16.8 50 19 50H37C39.2 50 41 48.2 41 46V21C41 18.8 39.2 17 37 17H31V13" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Green Leaf Accent on Bottle -->
-                            <path d="M28 26C34 26 35 32 35 36C31 36 25 35 25 29C25 27 26.5 26 28 26Z" fill="#EBF6EC" stroke="#2E7032" stroke-width="2.2" stroke-linejoin="round"/>
-                            <path d="M26 34C29 31 32 29 35 28" stroke="#2E7032" stroke-width="2" stroke-linecap="round"/>
-                            <!-- Angled Capsule on Right -->
-                            <g transform="translate(36, 32) rotate(35)">
-                                <rect x="0" y="0" width="12" height="24" rx="6" stroke="#0B103A" stroke-width="2.2"/>
-                                <line x1="0" y1="12" x2="12" y2="12" stroke="#2E7032" stroke-width="2.2"/>
-                                <path d="M0 6C0 2.7 2.7 0 6 0C9.3 0 12 2.7 12 6V12H0V6Z" fill="#EBF6EC" stroke="none"/>
-                            </g>
-                        </svg>
-                    </div>
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/nutraceuticals.webp') }}" alt="Nutraceutical products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
@@ -775,19 +758,6 @@
             <!-- CARD 2: BEAUTY & COSMETICS -->
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
-                    <div class="gh-industry-icon-wrap">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
-                            <!-- Cream swirl -->
-                            <path d="M24 22C24 16 32 12 34 16C37 13 42 16 41 22" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Jar lid rim -->
-                            <rect x="18" y="22" width="28" height="6" rx="2" stroke="#0B103A" stroke-width="2.5" stroke-linejoin="round"/>
-                            <!-- Jar container base -->
-                            <path d="M19 28H45C45 28 44 46 32 46C20 46 19 28 19 28Z" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Botanical Green Leaf -->
-                            <path d="M37 31C47 28 51 37 49 46C41 47 34 42 37 31Z" fill="#EBF6EC" stroke="#2E7032" stroke-width="2.2" stroke-linejoin="round"/>
-                            <path d="M39 42C43 38 46 35 49 34" stroke="#2E7032" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/beauty-cosmetics.webp') }}" alt="Beauty and cosmetics products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
@@ -802,19 +772,6 @@
             <!-- CARD 3: SPORTS NUTRITION -->
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
-                    <div class="gh-industry-icon-wrap">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
-                            <!-- Muscular Arm Outline -->
-                            <path d="M17 43C17 36 21 31 26 27C28 24 30 17 26 14C22 11 18 15 18 20" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M17 43C17 48 23 51 32 50C39 49 44 43 44 36C44 32 40 30 35 29C32 28 27 28 26 27" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M26 14C31 15 36 19 35 26" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round"/>
-                            <!-- Green Cross Plus Symbol -->
-                            <g transform="translate(37, 27)">
-                                <rect x="0" y="0" width="16" height="16" rx="4" fill="#EBF6EC" stroke="#2E7032" stroke-width="2"/>
-                                <path d="M8 3.5V12.5M3.5 8H12.5" stroke="#2E7032" stroke-width="2.5" stroke-linecap="round"/>
-                            </g>
-                        </svg>
-                    </div>
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/sports-nutrition.webp') }}" alt="Sports nutrition products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
@@ -829,19 +786,6 @@
             <!-- CARD 4: HEALTH & WELLNESS -->
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
-                    <div class="gh-industry-icon-wrap">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
-                            <!-- Heart Outline -->
-                            <path d="M30 48C17 38 12 28 12 20C12 14 16.5 10 22 10C26 10 29.5 12.5 31 15C32.5 12.5 36 10 40 10C45.5 10 50 14 50 20C50 25 47 31 42 36" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- ECG Pulse Line in Green -->
-                            <path d="M17 23H23L26 18L30 30L34 21L37 25H43" stroke="#2E7032" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Green Cross Plus Symbol -->
-                            <g transform="translate(37, 34)">
-                                <rect x="0" y="0" width="16" height="16" rx="4" fill="#EBF6EC" stroke="#2E7032" stroke-width="2"/>
-                                <path d="M8 3.5V12.5M3.5 8H12.5" stroke="#2E7032" stroke-width="2.5" stroke-linecap="round"/>
-                            </g>
-                        </svg>
-                    </div>
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/health-wellness.webp') }}" alt="Health and wellness products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
@@ -856,19 +800,6 @@
             <!-- CARD 5: PHARMACEUTICALS -->
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
-                    <div class="gh-industry-icon-wrap">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
-                            <!-- Handle -->
-                            <path d="M25 18V13C25 11.5 26.5 10 28 10H36C37.5 10 39 11.5 39 13V18" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Briefcase Box Body -->
-                            <rect x="14" y="18" width="36" height="30" rx="5" stroke="#0B103A" stroke-width="2.5" stroke-linejoin="round"/>
-                            <!-- Green Cross Symbol -->
-                            <g transform="translate(24, 25)">
-                                <path d="M5 2H11V5H14V11H11V14H5V11H2V5H5V2Z" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.8" stroke-linejoin="round"/>
-                                <path d="M8 3.5V12.5M3.5 8H12.5" stroke="#2E7032" stroke-width="2.2" stroke-linecap="round"/>
-                            </g>
-                        </svg>
-                    </div>
                     <div class="gh-industry-img-wrap mb-3">
                         <img src="{{ asset('assets/images/industries/pharmaceuticals.webp') }}" alt="Pharmaceutical products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
