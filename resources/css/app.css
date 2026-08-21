@@ -3022,17 +3022,17 @@ a:hover {
         justify-content: center;
     }
 
-    /* Promotional Showcase Section (Mobile 2-Column Exact Reference Layout) */
+    /* Promotional Showcase Section (Mobile 2-Column Reduced Height Layout) */
     .gh-promo-section {
-        padding: 2rem 0;
+        padding: 1.75rem 0;
     }
 
     .gh-promo-card {
         position: relative;
-        height: 235px;
-        min-height: 235px;
-        border-radius: 14px;
-        padding: 0.85rem 0.65rem 0.65rem 0.65rem;
+        height: 180px;
+        min-height: 180px;
+        border-radius: 10px;
+        padding: 0.6rem 0.5rem 0.5rem 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -3040,7 +3040,7 @@ a:hover {
         text-align: left;
         overflow: hidden;
         background-color: #FFFFFF;
-        box-shadow: 0 4px 16px rgba(11, 16, 58, 0.05);
+        box-shadow: 0 3px 12px rgba(11, 16, 58, 0.05);
         border: 1px solid #E2E8F0;
     }
 
@@ -3059,34 +3059,34 @@ a:hover {
 
     .gh-promo-text-wrap {
         width: 100%;
-        max-width: 60%;
+        max-width: 65%;
         text-align: left;
         padding: 0;
     }
 
     .gh-promo-title {
-        font-size: 0.88rem;
+        font-size: 0.78rem;
         font-weight: 800;
-        line-height: 1.12;
-        margin-bottom: 0.15rem;
+        line-height: 1.1;
+        margin-bottom: 0.05rem;
         color: var(--gh-navy);
         text-align: left;
     }
 
     .gh-promo-subtitle {
-        font-size: 0.64rem;
+        font-size: 0.58rem;
         font-weight: 800;
         text-transform: uppercase;
-        margin-bottom: 0.35rem;
+        margin-bottom: 0.2rem;
         color: var(--gh-navy);
         text-align: left;
-        letter-spacing: 0.3px;
+        letter-spacing: 0.2px;
     }
 
     .gh-promo-desc {
-        font-size: 0.62rem;
+        font-size: 0.55rem;
         font-weight: 600;
-        line-height: 1.25;
+        line-height: 1.2;
         color: #475569;
         text-align: left;
     }
@@ -3109,28 +3109,32 @@ a:hover {
     .btn-gh-promo {
         display: inline-flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 0.35rem;
-        font-size: 0.58rem;
+        justify-content: center;
+        gap: 0.25rem;
+        font-size: 0.54rem;
         font-weight: 800;
-        padding: 0.35rem 0.55rem;
+        padding: 0.28rem 0.45rem;
         width: auto;
-        max-width: 90%;
+        max-width: 100%;
         text-align: left;
-        border-radius: 6px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        border-radius: 4px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
         background-color: #FFFFFF;
         border: 1px solid #CBD5E1;
         color: var(--gh-navy);
         white-space: nowrap;
     }
 
+    .btn-gh-promo span {
+        white-space: nowrap;
+    }
+
     .gh-promo-img-wrap {
         position: absolute;
-        right: -10px;
-        bottom: -8px;
-        width: 72%;
-        height: 76%;
+        right: -6px;
+        bottom: -4px;
+        width: 65%;
+        height: 72%;
         pointer-events: none;
         z-index: 1;
         opacity: 1;
