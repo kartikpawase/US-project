@@ -870,7 +870,7 @@
                         </svg>
                     </div>
                     <div class="gh-industry-img-wrap mb-3">
-                        <img src="{{ asset('assets/images/industries/pharmaceuticals.svg') }}" alt="Pharmaceutical products" class="gh-industry-img img-fluid" loading="lazy">
+                        <img src="{{ asset('assets/images/industries/pharmaceuticals.webp') }}" alt="Pharmaceutical products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
                     <h3 class="gh-industry-card-title">PHARMACEUTICALS</h3>
                     <div class="gh-industry-card-divider"></div>
