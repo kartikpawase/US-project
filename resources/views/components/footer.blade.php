@@ -120,16 +120,9 @@
         <hr class="gh-footer-divider my-3">
 
         <!-- Bottom Legal / Copyright Row -->
-        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 pt-1 text-center text-md-start">
+        <div class="pt-1 text-center">
             <div class="gh-footer-copyright">
-                &copy; 2024 Guardian Health USA. All Rights Reserved.
-            </div>
-            <div class="gh-footer-legal-links d-flex align-items-center flex-wrap justify-content-center gap-3">
-                <a href="#" class="gh-footer-legal-link" data-bs-toggle="modal" data-bs-target="#comingSoonModal">Privacy Policy</a>
-                <span class="gh-footer-legal-sep">|</span>
-                <a href="#" class="gh-footer-legal-link" data-bs-toggle="modal" data-bs-target="#comingSoonModal">Terms &amp; Conditions</a>
-                <span class="gh-footer-legal-sep">|</span>
-                <a href="#" class="gh-footer-legal-link" data-bs-toggle="modal" data-bs-target="#comingSoonModal">Regulatory Disclaimer</a>
+                &copy; {{ date('Y') }} Guardian Health USA. All Rights Reserved.
             </div>
         </div>
     </div>
