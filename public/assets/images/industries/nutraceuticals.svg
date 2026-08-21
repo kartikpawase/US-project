@@ -1,0 +1,67 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nutra_bg" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="amber_glass" x1="0" y1="0" x2="60" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="cap_grad" x1="0" y1="0" x2="0" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="shadow_soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0B103A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  
+  <rect width="320" height="240" rx="12" fill="url(#nutra_bg)"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="160" cy="205" rx="85" ry="12" fill="#0B103A" fill-opacity="0.06"/>
+  <ellipse cx="230" cy="202" rx="40" ry="7" fill="#0B103A" fill-opacity="0.05"/>
+
+  <!-- Amber Bottle -->
+  <g filter="url(#shadow_soft)">
+    <!-- Bottle Body -->
+    <rect x="120" y="85" width="80" height="110" rx="16" fill="url(#amber_glass)"/>
+    <!-- Bottle Neck -->
+    <rect x="138" y="70" width="44" height="18" rx="4" fill="url(#amber_glass)"/>
+    <!-- Cap -->
+    <rect x="134" y="52" width="52" height="22" rx="6" fill="url(#cap_grad)"/>
+    <line x1="134" y1="63" x2="186" y2="63" stroke="#475569" stroke-width="1"/>
+    
+    <!-- White Label -->
+    <rect x="124" y="105" width="72" height="75" rx="4" fill="#FFFFFF"/>
+    <!-- Label Details -->
+    <rect x="134" y="115" width="28" height="6" rx="3" fill="#2E7032"/>
+    <rect x="134" y="127" width="52" height="8" rx="2" fill="#0B103A"/>
+    <rect x="134" y="140" width="40" height="4" rx="2" fill="#64748B"/>
+    <rect x="134" y="148" width="32" height="4" rx="2" fill="#94A3B8"/>
+    
+    <!-- Green Organic Leaf Stamp on Label -->
+    <circle cx="178" cy="160" r="10" fill="#EBF6EC"/>
+    <path d="M174 163C174 158 178 156 182 157C182 161 180 164 174 163Z" fill="#2E7032"/>
+  </g>
+
+  <!-- Supplement Capsules Scattered -->
+  <!-- Capsule 1 (Left) -->
+  <g transform="translate(75, 175) rotate(-25)">
+    <rect x="0" y="0" width="16" height="34" rx="8" fill="#EBF6EC" stroke="#2E7032" stroke-width="2"/>
+    <path d="M0 17H16V26C16 30.4 12.4 34 8 34C3.6 34 0 30.4 0 26V17Z" fill="#2E7032"/>
+  </g>
+  
+  <!-- Capsule 2 (Right) -->
+  <g transform="translate(220, 168) rotate(35)">
+    <rect x="0" y="0" width="16" height="34" rx="8" fill="#FFFFFF" stroke="#0B103A" stroke-width="2"/>
+    <path d="M0 0H16V17H0V0Z" fill="#0A6EFF"/>
+  </g>
+
+  <!-- Capsule 3 (Small front) -->
+  <g transform="translate(100, 192) rotate(60)">
+    <rect x="0" y="0" width="14" height="28" rx="7" fill="#FEF3C7" stroke="#D97706" stroke-width="1.8"/>
+  </g>
+</svg>

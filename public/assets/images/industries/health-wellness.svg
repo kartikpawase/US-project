@@ -1,0 +1,48 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="well_bg" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="well_bottle" x1="0" y1="0" x2="70" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <filter id="shadow_well" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0B103A" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="320" height="240" rx="12" fill="url(#well_bg)"/>
+
+  <!-- Ground Shadows -->
+  <ellipse cx="160" cy="205" rx="75" ry="10" fill="#0B103A" fill-opacity="0.06"/>
+
+  <!-- Main Wellness Product Bottle -->
+  <g filter="url(#shadow_well)">
+    <!-- Bottle Body -->
+    <rect x="120" y="80" width="80" height="115" rx="16" fill="url(#well_bottle)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <!-- Bamboo / Green Cap -->
+    <rect x="128" y="56" width="64" height="26" rx="6" fill="#2E7032"/>
+    
+    <!-- Clean Wellness Label -->
+    <rect x="126" y="100" width="68" height="80" rx="4" fill="#FFFFFF"/>
+    <!-- Heart & Pulse Graphic on Label -->
+    <path d="M160 135C155 128 145 128 145 137C145 145 160 154 160 154C160 154 175 145 175 137C175 128 165 128 160 135Z" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.8"/>
+    
+    <!-- Label Typography -->
+    <rect x="140" y="112" width="40" height="5" rx="2.5" fill="#0B103A"/>
+    <rect x="144" y="162" width="32" height="4" rx="2" fill="#64748B"/>
+    <rect x="148" y="170" width="24" height="3" rx="1.5" fill="#94A3B8"/>
+  </g>
+
+  <!-- Botanical Leaf Background Accent -->
+  <g transform="translate(75, 130)">
+    <path d="M25 50C10 35 15 15 35 10C40 30 32 45 25 50Z" fill="#EBF6EC" stroke="#2E7032" stroke-width="1.5"/>
+    <path d="M26 42C20 30 23 20 32 14" stroke="#2E7032" stroke-width="1.2"/>
+  </g>
+
+  <!-- Effervescent Tablet / Drop (Right) -->
+  <circle cx="225" cy="165" r="16" fill="#FFFFFF" stroke="#0A6EFF" stroke-width="2" filter="url(#shadow_well)"/>
+  <path d="M225 155V175M215 165H235" stroke="#0A6EFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

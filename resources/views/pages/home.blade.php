@@ -722,15 +722,19 @@
 <!-- ========================================
      INDUSTRIES WE SERVE SECTION (5-Card Unified Row)
 ======================================== -->
+<!-- ========================================
+     INDUSTRIES WE SERVE SECTION (5-Card Unified Row)
+======================================== -->
 <section class="gh-industries-section py-5" id="industries-we-serve">
     <div class="gh-container py-lg-2">
         
         <!-- Section Header -->
         <div class="text-center gh-industries-header mb-4 mb-lg-5">
+            <span class="badge bg-gh-green-subtle text-gh-green text-uppercase px-3 py-1 mb-2 fw-bold tracking-wider fs-7 d-inline-block">OUR MARKETS &amp; CAPABILITIES</span>
             <h2 class="gh-industries-title">INDUSTRIES WE SERVE</h2>
             <div class="gh-industries-divider"></div>
             <p class="gh-industries-intro">
-                We partner with brands across a variety of industries to create science-backed products that inspire health and well-being.
+                We partner with brands across health, wellness, nutrition, beauty, and pharmaceutical markets to develop and manufacture science-backed products built for performance, quality, and growth.
             </p>
         </div>
 
@@ -741,7 +745,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-icon-wrap">
-                        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
+                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
                             <!-- Bottle Cap & Neck -->
                             <rect x="22" y="8" width="16" height="5" rx="1.5" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <!-- Bottle Body -->
@@ -757,10 +761,13 @@
                             </g>
                         </svg>
                     </div>
+                    <div class="gh-industry-img-wrap mb-3">
+                        <img src="{{ asset('assets/images/industries/nutraceuticals.svg') }}" alt="Nutraceutical products" class="gh-industry-img img-fluid" loading="lazy">
+                    </div>
                     <h3 class="gh-industry-card-title">NUTRACEUTICALS</h3>
                     <div class="gh-industry-card-divider"></div>
                     <p class="gh-industry-card-desc">
-                        Premium supplements and functional nutrition products for everyday wellness.
+                        Premium supplements and functional nutrition products designed for everyday wellness, including vitamins, minerals, powders, and specialized formulations.
                     </p>
                 </div>
             </div>
@@ -769,7 +776,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-icon-wrap">
-                        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
+                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
                             <!-- Cream swirl -->
                             <path d="M24 22C24 16 32 12 34 16C37 13 42 16 41 22" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <!-- Jar lid rim -->
@@ -781,10 +788,13 @@
                             <path d="M39 42C43 38 46 35 49 34" stroke="#2E7032" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
+                    <div class="gh-industry-img-wrap mb-3">
+                        <img src="{{ asset('assets/images/industries/beauty-cosmetics.svg') }}" alt="Beauty and cosmetics products" class="gh-industry-img img-fluid" loading="lazy">
+                    </div>
                     <h3 class="gh-industry-card-title">BEAUTY &amp; COSMETICS</h3>
                     <div class="gh-industry-card-divider"></div>
                     <p class="gh-industry-card-desc">
-                        Science-driven beauty solutions that support confidence and natural well-being.
+                        Science-driven beauty and personal-care solutions designed around quality ingredients, advanced formulations, and consumer confidence.
                     </p>
                 </div>
             </div>
@@ -793,7 +803,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-icon-wrap">
-                        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
+                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
                             <!-- Muscular Arm Outline -->
                             <path d="M17 43C17 36 21 31 26 27C28 24 30 17 26 14C22 11 18 15 18 20" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M17 43C17 48 23 51 32 50C39 49 44 43 44 36C44 32 40 30 35 29C32 28 27 28 26 27" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -805,10 +815,13 @@
                             </g>
                         </svg>
                     </div>
+                    <div class="gh-industry-img-wrap mb-3">
+                        <img src="{{ asset('assets/images/industries/sports-nutrition.svg') }}" alt="Sports nutrition products" class="gh-industry-img img-fluid" loading="lazy">
+                    </div>
                     <h3 class="gh-industry-card-title">SPORTS NUTRITION</h3>
                     <div class="gh-industry-card-divider"></div>
                     <p class="gh-industry-card-desc">
-                        High-performance products designed to fuel athletes and active lifestyles.
+                        High-performance products supporting active lifestyles, including hydration, electrolytes, protein, energy, recovery, and performance nutrition.
                     </p>
                 </div>
             </div>
@@ -817,7 +830,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-icon-wrap">
-                        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
+                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
                             <!-- Heart Outline -->
                             <path d="M30 48C17 38 12 28 12 20C12 14 16.5 10 22 10C26 10 29.5 12.5 31 15C32.5 12.5 36 10 40 10C45.5 10 50 14 50 20C50 25 47 31 42 36" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <!-- ECG Pulse Line in Green -->
@@ -829,19 +842,22 @@
                             </g>
                         </svg>
                     </div>
+                    <div class="gh-industry-img-wrap mb-3">
+                        <img src="{{ asset('assets/images/industries/health-wellness.svg') }}" alt="Health and wellness products" class="gh-industry-img img-fluid" loading="lazy">
+                    </div>
                     <h3 class="gh-industry-card-title">HEALTH &amp; WELLNESS</h3>
                     <div class="gh-industry-card-divider"></div>
                     <p class="gh-industry-card-desc">
-                        Holistic wellness products that promote better health and quality of life.
+                        Functional products created to support everyday health, hydration, energy, wellness, and modern consumer lifestyles.
                     </p>
                 </div>
             </div>
 
-            <!-- CARD 5: PHARMACEUTICAL -->
+            <!-- CARD 5: PHARMACEUTICALS -->
             <div class="col-12 col-sm-6 col-md-4 col-lg gh-industries-col">
                 <div class="gh-industry-card">
                     <div class="gh-industry-icon-wrap">
-                        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
+                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="gh-industry-svg">
                             <!-- Handle -->
                             <path d="M25 18V13C25 11.5 26.5 10 28 10H36C37.5 10 39 11.5 39 13V18" stroke="#0B103A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <!-- Briefcase Box Body -->
@@ -853,21 +869,24 @@
                             </g>
                         </svg>
                     </div>
-                    <h3 class="gh-industry-card-title">PHARMACEUTICAL</h3>
+                    <div class="gh-industry-img-wrap mb-3">
+                        <img src="{{ asset('assets/images/industries/pharmaceuticals.svg') }}" alt="Pharmaceutical products" class="gh-industry-img img-fluid" loading="lazy">
+                    </div>
+                    <h3 class="gh-industry-card-title">PHARMACEUTICALS</h3>
                     <div class="gh-industry-card-divider"></div>
                     <p class="gh-industry-card-desc">
-                        cGMP-compliant manufacturing for quality, safety, and regulatory excellence.
+                        cGMP-focused manufacturing and packaging solutions for OTC pharmaceutical products, healthcare products, and regulated applications.
                     </p>
                 </div>
             </div>
 
         </div>
 
-        <!-- Center CTA Button -->
-        <div class="text-center gh-industries-cta-wrap">
-            <button type="button" class="btn-gh-industry-cta" data-bs-toggle="modal" data-bs-target="#partnerModal">
+        <!-- Center CTA Button (GREEN) -->
+        <div class="text-center gh-industries-cta-wrap mt-4 mt-lg-5">
+            <button type="button" class="btn-gh-green-cta shadow-sm" data-bs-toggle="modal" data-bs-target="#partnerModal">
                 <span>LET'S PARTNER</span>
-                <span class="btn-gh-arrow">→</span>
+                <span class="btn-gh-arrow ms-1">→</span>
             </button>
         </div>
 
