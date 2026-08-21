@@ -843,7 +843,7 @@
                         </svg>
                     </div>
                     <div class="gh-industry-img-wrap mb-3">
-                        <img src="{{ asset('assets/images/industries/health-wellness.svg') }}" alt="Health and wellness products" class="gh-industry-img img-fluid" loading="lazy">
+                        <img src="{{ asset('assets/images/industries/health-wellness.webp') }}" alt="Health and wellness products" class="gh-industry-img img-fluid" loading="lazy">
                     </div>
                     <h3 class="gh-industry-card-title">HEALTH &amp; WELLNESS</h3>
                     <div class="gh-industry-card-divider"></div>
