@@ -6,8 +6,8 @@
 /* Import Bootstrap CSS */
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-/* Import Google Fonts (Montserrat & Inter) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap');
+/* Import Google Fonts (Montserrat, Inter, Playfair Display) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap');
 
 /* ========================================
    Global Design Tokens
@@ -614,44 +614,265 @@ a:hover {
 }
 
 /* ========================================
-   Trust / Value Strip (Brand Trust Section)
+   About Us Section (Manufacturing Excellence)
+======================================== */
+.gh-about-section {
+    background-color: var(--gh-white);
+    padding: 4.75rem 0;
+    position: relative;
+    z-index: 2;
+}
+
+.gh-about-row {
+    align-items: center;
+}
+
+.gh-about-img-col {
+    display: flex;
+    justify-content: center;
+}
+
+.gh-about-img-wrap {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(11, 16, 58, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.gh-about-img-wrap:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(11, 16, 58, 0.12);
+}
+
+.gh-about-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.gh-about-content {
+    padding-left: 0;
+}
+
+@media (min-width: 992px) {
+    .gh-about-content {
+        padding-left: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .gh-about-content {
+        padding-left: 2.25rem;
+    }
+}
+
+/* Eyebrow Label with Green Accent Bar */
+.gh-about-eyebrow-wrap {
+    margin-bottom: 1.15rem;
+}
+
+.gh-about-eyebrow {
+    display: block;
+    font-family: var(--gh-font-heading);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--gh-green);
+    text-transform: uppercase;
+}
+
+.gh-about-eyebrow-bar {
+    width: 38px;
+    height: 3.5px;
+    background-color: var(--gh-green);
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+/* Main Serif Heading */
+.gh-about-title {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.65rem;
+    font-weight: 800;
+    color: var(--gh-navy);
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.15rem;
+}
+
+/* Intro Paragraph */
+.gh-about-intro {
+    font-family: var(--gh-font-body);
+    font-size: 0.96rem;
+    font-weight: 400;
+    line-height: 1.62;
+    color: #475569;
+    max-width: 620px;
+    margin-bottom: 1.65rem;
+}
+
+/* 5 Value Points */
+.gh-about-points {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.85rem;
+}
+
+.gh-about-point-item {
+    display: flex;
+    align-items: center;
+    padding: 0.72rem 0;
+    border-top: 1px solid #E2E8F0;
+}
+
+.gh-about-point-item:last-child {
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.gh-about-bullet {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--gh-green);
+    margin-right: 0.85rem;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+.gh-about-point-text {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    font-family: var(--gh-font-body);
+    font-size: 0.875rem;
+    line-height: 1.45;
+}
+
+.gh-about-point-title {
+    font-family: var(--gh-font-body);
+    font-weight: 700;
+    color: var(--gh-navy);
+    white-space: nowrap;
+}
+
+.gh-about-point-sep {
+    color: #CBD5E1;
+    margin: 0 0.55rem;
+    font-weight: 300;
+}
+
+.gh-about-point-desc {
+    color: #475569;
+    font-weight: 400;
+}
+
+/* Learn More Button */
+.btn-gh-about {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    background-color: var(--gh-navy);
+    color: var(--gh-white);
+    font-family: var(--gh-font-heading);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 0.72rem 1.65rem;
+    border-radius: 6px;
+    border: 2px solid var(--gh-navy);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: var(--gh-transition);
+}
+
+.btn-gh-about:hover {
+    background-color: var(--gh-blue);
+    border-color: var(--gh-blue);
+    color: var(--gh-white);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(10, 110, 255, 0.25);
+}
+
+.btn-gh-about .btn-gh-arrow {
+    font-size: 1rem;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+.btn-gh-about:hover .btn-gh-arrow {
+    transform: translateX(3px);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 991.98px) {
+    .gh-about-section {
+        padding: 3.5rem 0;
+    }
+    
+    .gh-about-img-wrap {
+        max-width: 100%;
+    }
+    
+    .gh-about-title {
+        font-size: 2.15rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .gh-about-section {
+        padding: 2.75rem 0;
+    }
+    
+    .gh-about-title {
+        font-size: 1.75rem;
+    }
+    
+    .gh-about-point-text {
+        font-size: 0.84rem;
+    }
+}
+
+/* ========================================
+   Trust / Value Strip (Exact Reference Design)
 ======================================== */
 .gh-trust-strip {
-    background-color: var(--gh-navy);
-    padding: 1.5rem 0;
+    background-color: #021947;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1.25rem 0;
     position: relative;
     z-index: 10;
     width: 100%;
-}
-
-.gh-trust-strip .gh-container {
-    max-width: 1260px;
 }
 
 .gh-trust-row {
     align-items: center;
 }
 
-@media (min-width: 992px) {
-    .gh-trust-row {
-        flex-wrap: nowrap !important;
-    }
-    
-    .gh-trust-col {
-        flex: 1 1 0 !important;
-        max-width: none !important;
-        display: flex;
-        justify-content: center;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-    }
+.gh-trust-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
 }
 
 .gh-trust-item {
     display: flex;
     align-items: center;
     gap: 0.85rem;
-    padding: 0.15rem 0;
+    padding: 0.2rem 0;
+    transition: transform 0.25s ease;
+}
+
+.gh-trust-item:hover {
+    transform: translateY(-2px);
 }
 
 .gh-trust-icon {
@@ -659,8 +880,6 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 34px;
-    height: 34px;
 }
 
 .gh-trust-icon svg {
@@ -683,27 +902,27 @@ a:hover {
 
 .gh-trust-title {
     font-family: var(--gh-font-heading);
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     font-weight: 800;
-    line-height: 1.12;
+    line-height: 1.15;
     color: #FFFFFF;
     text-transform: uppercase;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.5px;
 }
 
 .gh-trust-desc {
     font-family: var(--gh-font-body);
-    font-size: 0.74rem;
-    font-weight: 400;
-    color: #CBD5E1;
-    line-height: 1.22;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: #94A3B8;
+    line-height: 1.25;
     margin-top: 3px;
 }
 
 .gh-trust-divider {
     width: 1px;
-    height: 36px;
-    background-color: rgba(255, 255, 255, 0.16);
+    height: 38px;
+    background-color: rgba(255, 255, 255, 0.2);
     flex-shrink: 0;
 }
 

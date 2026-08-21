@@ -151,6 +151,114 @@
 </section>
 
 <!-- ========================================
+     About Us Section (Manufacturing Excellence. Healthier Futures.)
+======================================== -->
+<section class="gh-about-section" id="about-us">
+    <div class="gh-container">
+        <div class="row g-4 g-lg-5 align-items-center gh-about-row">
+            
+            <!-- Left Column: Manufacturing Facility Image -->
+            <div class="col-12 col-lg-5 gh-about-img-col">
+                <div class="gh-about-img-wrap">
+                    <img src="{{ asset('assets/images/about/about-us-manufacturing.webp') }}" 
+                         alt="Guardian Health USA cGMP Manufacturing Facility" 
+                         class="gh-about-img" 
+                         loading="lazy">
+                </div>
+            </div>
+
+            <!-- Right Column: About Us Content -->
+            <div class="col-12 col-lg-7 gh-about-content-col">
+                <div class="gh-about-content">
+                    
+                    <!-- Section Eyebrow / Label -->
+                    <div class="gh-about-eyebrow-wrap">
+                        <span class="gh-about-eyebrow">ABOUT US</span>
+                        <div class="gh-about-eyebrow-bar"></div>
+                    </div>
+
+                    <!-- Main Heading -->
+                    <h2 class="gh-about-title">
+                        Manufacturing Excellence.<br>
+                        Healthier Futures.
+                    </h2>
+
+                    <!-- Introductory Paragraph -->
+                    <p class="gh-about-intro">
+                        We are a cGMP-certified manufacturing partner committed to producing high-quality health and wellness products. Our focus is simple—deliver science-backed solutions, with consistency, care, and integrity.
+                    </p>
+
+                    <!-- Key Value Points (5 Items with Subtle Separator Lines) -->
+                    <div class="gh-about-points">
+                        
+                        <!-- Point 1: Advanced Science -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Advanced Science</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Research-driven formulations using premium, clinically relevant ingredients.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 2: Quality You Can Trust -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Quality You Can Trust</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">cGMP-certified facility with rigorous testing and quality controls at every step.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 3: Flexible Solutions -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Flexible Solutions</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Custom formulations and scalable manufacturing to support brands of all sizes.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 4: Packaging Expertise -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Packaging Expertise</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Wide range of packaging formats including stick packs, blister packs, bottles, and more.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 5: Built for Partnership -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Built for Partnership</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Transparent communication, dependable execution, and long-term partnership approach.</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="gh-about-action">
+                        <button type="button" class="btn-gh-about" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                            <span>LEARN MORE</span>
+                            <span class="btn-gh-arrow">→</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
      Trust / Value Strip (Exact Reference Design)
 ======================================== -->
 <section class="gh-trust-strip">
@@ -161,10 +269,11 @@
             <div class="col-6 col-md-4 col-lg gh-trust-col">
                 <div class="gh-trust-item d-flex align-items-center">
                     <div class="gh-trust-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="7.5" r="3.5" />
-                            <path d="M5.5 20.5c0-3.6 2.9-6.5 6.5-6.5s6.5 2.9 6.5 6.5" />
-                            <path d="M9.5 14.2c.8.6 1.6.8 2.5.8s1.7-.2 2.5-.8" />
+                            <circle cx="12" cy="7.5" r="1.2" fill="#FFFFFF" />
+                            <path d="M5 20.5c0-4 3.1-6.5 7-6.5s7 2.5 7 6.5" />
+                            <path d="M9 14c1 .8 2 1 3 1s2-.2 3-1" />
                         </svg>
                     </div>
                     <div class="gh-trust-content">
@@ -181,9 +290,10 @@
             <div class="col-6 col-md-4 col-lg gh-trust-col">
                 <div class="gh-trust-item d-flex align-items-center">
                     <div class="gh-trust-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M12 2.2l2.2 2.4 3.2-.2.9 3.1 3.1.9-.2 3.2 2.4 2.2-2.4 2.2.2 3.2-3.1.9-.9 3.1-3.2-.2L12 21.8l-2.2-2.4-3.2.2-.9-3.1-3.1-.9.2-3.2-2.4-2.2 2.4-2.2-.2-3.2 3.1-.9.9-3.1 3.2.2z" />
-                            <polyline points="9 12 11.5 14.5 15.5 9.5" />
+                            <circle cx="12" cy="12" r="4.5" />
+                            <circle cx="12" cy="12" r="2" />
                         </svg>
                     </div>
                     <div class="gh-trust-content">
@@ -200,7 +310,7 @@
             <div class="col-6 col-md-4 col-lg gh-trust-col">
                 <div class="gh-trust-item d-flex align-items-center">
                     <div class="gh-trust-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="3.5" />
                             <circle cx="12" cy="4" r="1.3" fill="#FFFFFF" />
                             <circle cx="17.65" cy="6.35" r="1.3" fill="#FFFFFF" />
@@ -234,14 +344,15 @@
             <div class="col-6 col-md-4 col-lg gh-trust-col">
                 <div class="gh-trust-item d-flex align-items-center">
                     <div class="gh-trust-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="6" r="2.5" />
-                            <circle cx="5.5" cy="17.5" r="2" />
-                            <circle cx="18.5" cy="17.5" r="2" />
-                            <path d="M12 8.5v4" />
-                            <path d="M7.2 16l3.5-3.5" />
-                            <path d="M16.8 16l-3.5-3.5" />
-                            <circle cx="12" cy="12.5" r="1" fill="#FFFFFF" />
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="5.5" r="2.2" />
+                            <circle cx="6" cy="17" r="1.6" fill="#FFFFFF" />
+                            <circle cx="18" cy="17" r="1.6" fill="#FFFFFF" />
+                            <circle cx="12" cy="12.5" r="1.2" fill="#FFFFFF" />
+                            <path d="M12 7.7v4.8" />
+                            <path d="M8 20.5l4-8 4 8" />
+                            <line x1="9" y1="13.5" x2="6" y2="17" />
+                            <line x1="15" y1="13.5" x2="18" y2="17" />
                         </svg>
                     </div>
                     <div class="gh-trust-content">
@@ -258,25 +369,22 @@
             <div class="col-6 col-md-4 col-lg gh-trust-col">
                 <div class="gh-trust-item d-flex align-items-center">
                     <div class="gh-trust-flag">
-                        <svg width="34" height="23" viewBox="0 0 60 36" style="border-radius: 2px; box-shadow: 0 1px 3px rgba(0,0,0,0.3); display: block;">
+                        <svg width="36" height="24" viewBox="0 0 60 36" style="border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.35); display: block;">
                             <rect width="60" height="36" fill="#B22234"/>
                             <path d="M0 2.77h60M0 8.31h60M0 13.85h60M0 19.38h60M0 24.92h60M0 30.46h60" stroke="#FFFFFF" stroke-width="2.77"/>
                             <rect width="25" height="19.38" fill="#3C3B6E"/>
-                            <g fill="#FFFFFF">
-                                <circle cx="3.5" cy="3.5" r="0.9"/>
-                                <circle cx="10" cy="3.5" r="0.9"/>
-                                <circle cx="16.5" cy="3.5" r="0.9"/>
-                                <circle cx="23" cy="3.5" r="0.9"/>
-                                <circle cx="6.75" cy="8" r="0.9"/>
-                                <circle cx="13.25" cy="8" r="0.9"/>
-                                <circle cx="19.75" cy="8" r="0.9"/>
-                                <circle cx="3.5" cy="12.5" r="0.9"/>
-                                <circle cx="10" cy="12.5" r="0.9"/>
-                                <circle cx="16.5" cy="12.5" r="0.9"/>
-                                <circle cx="23" cy="12.5" r="0.9"/>
-                                <circle cx="6.75" cy="16.5" r="0.9"/>
-                                <circle cx="13.25" cy="16.5" r="0.9"/>
-                                <circle cx="19.75" cy="16.5" r="0.9"/>
+                            <g fill="#FFFFFF" transform="scale(0.8) translate(1.5, 1.5)">
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(2,2)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(10,2)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(18,2)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(26,2)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(6,8)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(14,8)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(22,8)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(2,14)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(10,14)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(18,14)"/>
+                                <polygon points="4,1 5,3.5 7.5,3.5 5.5,5 6.5,7.5 4,6 1.5,7.5 2.5,5 0.5,3.5 3,3.5" transform="scale(0.6) translate(26,14)"/>
                             </g>
                         </svg>
                     </div>
