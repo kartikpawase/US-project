@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="pdqShadow5" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#0B103A" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#0B103A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0B103A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pdq30TrayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#005A52"/>
+      <stop offset="40%" stop-color="#021947"/>
+      <stop offset="100%" stop-color="#010E28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="465" rx="205" ry="22" fill="url(#pdqShadow5)"/>
+
+  <!-- Wide Dual-Tier PDQ Group -->
+  <g transform="translate(65, 30)">
+    <!-- Wide Backboard Header Card -->
+    <path d="M15,20 L355,20 C365,20 370,28 370,38 L370,175 L0,175 L0,38 C0,28 5,20 15,20 Z" fill="#021947" stroke="#00867A" stroke-width="2.5"/>
+
+    <text x="185" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#4ADE80" text-anchor="middle" letter-spacing="2">HIGH-VELOCITY RETAIL PACK</text>
+    <text x="185" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">HYDRATE ELITE™</text>
+    <text x="185" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#FED7AA" text-anchor="middle">DUAL-TIER COUNTERTOP DISPENSER</text>
+    <text x="185" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#A7F3D0" text-anchor="middle">HIGH-CAPACITY 30 STICK GRAVITY FEED</text>
+
+    <!-- Two Rows of Stick Packs inside wide tray -->
+    <g transform="translate(25, 130)">
+      <rect x="0" y="0" width="34" height="150" rx="3.5" fill="#0A6EFF" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="40" y="0" width="34" height="150" rx="3.5" fill="#FF8A00" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="80" y="0" width="34" height="150" rx="3.5" fill="#00867A" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="120" y="0" width="34" height="150" rx="3.5" fill="#E11D48" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="160" y="0" width="34" height="150" rx="3.5" fill="#0A6EFF" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="200" y="0" width="34" height="150" rx="3.5" fill="#FF8A00" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="240" y="0" width="34" height="150" rx="3.5" fill="#00867A" stroke="#FFFFFF" stroke-width="1.2"/>
+      <rect x="280" y="0" width="34" height="150" rx="3.5" fill="#E11D48" stroke="#FFFFFF" stroke-width="1.2"/>
+    </g>
+
+    <!-- Front Tray Wall Wide Lip -->
+    <path d="M-10,245 L380,245 L365,420 L5,420 Z" fill="url(#pdq30TrayGrad)" stroke="#0E7490" stroke-width="2"/>
+
+    <!-- Front Details Badge (Wide) -->
+    <rect x="30" y="280" width="310" height="100" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="185" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">30 STICK CARTON</text>
+    <text x="185" y="344" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#4ADE80" text-anchor="middle" letter-spacing="0.5">PDQ DISPLAY CARTON</text>
+    <text x="185" y="364" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" text-anchor="middle">HIGH-CAPACITY RETAIL COUNTERTOP DISPENSER</text>
+  </g>
+</svg>

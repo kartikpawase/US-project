@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Studio Ambient Shadow -->
+    <radialGradient id="pouchShadow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#0B103A" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#0B103A" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0B103A" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Pouch Body 3D Satin Cylindrical Gradient -->
+    <linearGradient id="pouchSatinBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="8%" stop-color="#F1F5F9"/>
+      <stop offset="25%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#F8FAFC"/>
+      <stop offset="90%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+
+    <!-- Metallic Foil Sheen Highlight -->
+    <linearGradient id="foilSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.7)"/>
+      <stop offset="25%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="60%" stop-color="rgba(255,255,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+
+    <!-- Pouch Header Electric Blue Gradient -->
+    <linearGradient id="blueHeaderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0858CC"/>
+      <stop offset="40%" stop-color="#0A6EFF"/>
+      <stop offset="80%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0444A4"/>
+    </linearGradient>
+
+    <!-- Top Seal Texture -->
+    <pattern id="sealRibs" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#94A3B8" stroke-width="1"/>
+      <line x1="2" y1="0" x2="2" y2="4" stroke="#E2E8F0" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="500" height="500" fill="#FFFFFF"/>
+
+  <!-- Soft Contact Drop Shadow -->
+  <ellipse cx="250" cy="460" rx="170" ry="18" fill="url(#pouchShadow)"/>
+
+  <!-- Pouch Group -->
+  <g transform="translate(100, 30)">
+    <!-- Stand-Up Pouch Body with Realistic Curvature -->
+    <path d="M35,30 C90,26 210,26 265,30 C278,32 288,50 286,75 L298,390 C300,410 285,425 260,428 C200,435 100,435 40,428 C15,425 0,410 2,390 L14,75 C12,50 22,32 35,30 Z" fill="url(#pouchSatinBody)" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Bottom Gusset Fold Line -->
+    <path d="M18,385 C100,420 200,420 282,385" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-opacity="0.6"/>
+
+    <!-- Top Heat Seal Ribbing -->
+    <path d="M35,30 C90,26 210,26 265,30 L268,52 C210,48 90,48 32,52 Z" fill="url(#sealRibs)"/>
+    <path d="M35,30 C90,26 210,26 265,30 L268,52 C210,48 90,48 32,52 Z" fill="url(#foilSheen)"/>
+
+    <!-- Laser Tear Notches -->
+    <path d="M12,42 L24,46 L12,50 Z" fill="#FFFFFF"/>
+    <path d="M288,42 L276,46 L288,50 Z" fill="#FFFFFF"/>
+
+    <!-- Dynamic Curved Top Blue Wave Header -->
+    <path d="M32,52 C100,48 200,48 268,52 L274,165 C200,185 100,185 26,165 Z" fill="url(#blueHeaderGrad)"/>
+    <path d="M32,52 C100,48 200,48 268,52 L274,165 C200,185 100,185 26,165 Z" fill="url(#foilSheen)"/>
+
+    <!-- Pouch Brand Typography -->
+    <text x="150" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">GUARDIAN HEALTH USA</text>
+    <text x="150" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">HYDRATE ELITE™</text>
+    <text x="150" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#FED7AA" text-anchor="middle" letter-spacing="0.5">ELECTROLYTE HYDRATION POWDER</text>
+    <text x="150" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="600" fill="#E0F2FE" text-anchor="middle">ZERO SUGAR · RAPID CELLULAR ABSORPTION</text>
+
+    <!-- Center Flavor Stick Packs Fan Illustration -->
+    <g transform="translate(150, 270)">
+      <!-- Stick Pack 1 (Blue Raspberry) -->
+      <g transform="rotate(-15) translate(-45, -75)">
+        <rect x="0" y="0" width="30" height="115" rx="3" fill="#0A6EFF" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="15" y="55" font-family="sans-serif" font-size="6.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">BLUE</text>
+      </g>
+      <!-- Stick Pack 2 (Citrus Orange) -->
+      <g transform="rotate(-5) translate(-15, -80)">
+        <rect x="0" y="0" width="30" height="115" rx="3" fill="#FF8A00" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="15" y="55" font-family="sans-serif" font-size="6.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">ORANGE</text>
+      </g>
+      <!-- Stick Pack 3 (Lime Green) -->
+      <g transform="rotate(5) translate(15, -80)">
+        <rect x="0" y="0" width="30" height="115" rx="3" fill="#00867A" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="15" y="55" font-family="sans-serif" font-size="6.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">LIME</text>
+      </g>
+      <!-- Stick Pack 4 (Berry Red) -->
+      <g transform="rotate(15) translate(45, -75)">
+        <rect x="0" y="0" width="30" height="115" rx="3" fill="#E11D48" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="15" y="55" font-family="sans-serif" font-size="6.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">BERRY</text>
+      </g>
+    </g>
+
+    <!-- Bottom Distinctive Navy Spec Badge -->
+    <rect x="40" y="355" width="220" height="46" rx="23" fill="#021947" stroke="#0A6EFF" stroke-width="1.5"/>
+    <text x="150" y="377" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">10 STICK PACKS</text>
+    <text x="150" y="392" font-family="system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#38BDF8" text-anchor="middle">85g NET WT (2.99 OZ) · STAND-UP POUCH</text>
+  </g>
+</svg>
