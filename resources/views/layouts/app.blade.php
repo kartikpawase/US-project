@@ -29,9 +29,6 @@
     <!-- Footer Component -->
     @include('components.footer')
 
-    <!-- Coming Soon Modal Component -->
-    @include('components.coming-soon')
-
     <!-- Partner With Us Modal Component -->
     @include('components.partner-modal')
 
