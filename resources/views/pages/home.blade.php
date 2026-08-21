@@ -885,7 +885,6 @@
             <div class="col-12 col-lg-6 gh-quality-col">
                 <div class="gh-quality-card h-100 d-flex flex-column justify-content-between p-3 p-sm-4 p-xl-5 rounded-4 bg-white shadow-sm border border-light-subtle">
                     <div>
-                        <span class="badge bg-gh-green text-uppercase px-3 py-1 mb-2 fw-bold tracking-wider fs-7">QUALITY STANDARD</span>
                         <h2 class="gh-quality-title fw-bold text-gh-navy mb-2">QUALITY YOU CAN TRUST</h2>
                         <p class="gh-quality-desc text-muted mb-3 mb-sm-4">
                             We are committed to the highest quality standards in every product we create, enforcing cGMP regulations and continuous lab validation.
@@ -965,7 +964,6 @@
             <div class="col-12 col-lg-6 gh-partnership-col">
                 <div class="gh-partnership-card h-100 p-3 p-sm-4 p-xl-5 rounded-4 bg-white shadow-sm border border-light-subtle d-flex flex-column justify-content-between">
                     <div>
-                        <span class="badge bg-gh-blue text-uppercase px-3 py-1 mb-2 fw-bold tracking-wider fs-7">PARTNERSHIP PROGRAM</span>
                         <h2 class="gh-partnership-title fw-bold text-gh-navy mb-2">LET'S BUILD SUCCESS TOGETHER</h2>
                         <p class="gh-partnership-desc text-muted mb-3">
                             Partner with Guardian Health USA for innovative products, reliable manufacturing, and shared growth.
