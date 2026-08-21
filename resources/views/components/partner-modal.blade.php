@@ -149,7 +149,7 @@
                         </div>
                         
                         <button type="submit" class="btn-gh btn-gh-green w-100 w-sm-auto justify-content-center px-4" id="btnSubmitPartner">
-                            <span>Submit Inquiry</span>
+                            <span>Submit inquiry</span>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
                                 <line x1="5" y1="12" x2="19" y2="12"></line>
                                 <polyline points="12 5 19 12 12 19"></polyline>

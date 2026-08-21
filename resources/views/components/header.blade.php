@@ -169,7 +169,7 @@
                 <!-- Header CTA Button -->
                 <div class="d-flex align-items-center mt-3 mt-lg-0 ms-lg-2">
                     <button type="button" class="btn-gh btn-gh-green btn-gh-sm" data-bs-toggle="modal" data-bs-target="#partnerModal">
-                        Partner With Us
+                        Partner with us
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
