@@ -2443,3 +2443,652 @@ a:hover {
         height: 200px;
     }
 }
+/* ========================================
+   STRICT CSS MEDIA QUERY RESPONSIVENESS SYSTEM
+======================================== */
+
+/* ----------------------------------------
+   1. Ultra-Wide & Large Desktop (1200px and up)
+---------------------------------------- */
+@media (min-width: 1200px) {
+    .gh-container {
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .gh-hero-title {
+        font-size: 3.4rem;
+        line-height: 1.15;
+    }
+    
+    .gh-about-img-wrap {
+        height: 520px;
+    }
+    
+    .gh-portfolio-card-image {
+        height: 220px;
+    }
+
+    .gh-packaging-card-image {
+        height: 200px;
+    }
+}
+
+/* ----------------------------------------
+   2. Standard Desktop / Laptops (992px to 1199.98px)
+---------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .gh-container {
+        max-width: 960px;
+    }
+
+    .gh-hero-title {
+        font-size: 2.8rem;
+    }
+
+    .gh-hero-description {
+        font-size: 1.05rem;
+    }
+
+    .gh-about-img-wrap {
+        height: 440px;
+    }
+
+    .gh-portfolio-card-image {
+        height: 180px;
+    }
+
+    .gh-packaging-card-image {
+        height: 170px;
+    }
+
+    .gh-promo-title {
+        font-size: 1.35rem;
+    }
+
+    .gh-trust-title {
+        font-size: 0.72rem;
+    }
+
+    .gh-trust-desc {
+        font-size: 0.65rem;
+    }
+}
+
+/* ----------------------------------------
+   3. Tablets & Small Laptops (768px to 991.98px)
+---------------------------------------- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .gh-container {
+        max-width: 720px;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    /* Top Bar & Header */
+    .gh-top-bar {
+        padding: 0.5rem 0;
+    }
+
+    .gh-top-features {
+        gap: 0.75rem;
+        justify-content: center;
+    }
+
+    .gh-top-divider {
+        display: inline-block;
+        opacity: 0.5;
+    }
+
+    .gh-hero {
+        padding: 4rem 0 3.5rem 0;
+        min-height: auto;
+    }
+
+    .gh-hero-bg-carousel {
+        width: 100%;
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+
+    .gh-hero-bg-overlay {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.9) 65%, rgba(255, 255, 255, 0.75) 100%);
+    }
+
+    .gh-hero-title {
+        font-size: 2.6rem;
+    }
+
+    .gh-hero-features {
+        gap: 0.75rem;
+    }
+
+    .gh-feature-item {
+        padding: 0.6rem 0.85rem;
+    }
+
+    /* Trust Strip */
+    .gh-trust-strip {
+        padding: 1.25rem 0;
+    }
+
+    .gh-trust-row {
+        gap: 1rem 0;
+    }
+
+    .gh-trust-col {
+        margin-bottom: 0.5rem;
+    }
+
+    /* About Us */
+    .gh-about-img-wrap {
+        height: 380px;
+        width: 100%;
+    }
+
+    .gh-about-title {
+        font-size: 2.1rem;
+    }
+
+    /* Portfolio Cards */
+    .gh-portfolio-card-image {
+        height: 210px;
+    }
+
+    .gh-portfolio-title {
+        font-size: 2.2rem;
+    }
+
+    /* Packaging Cards */
+    .gh-packaging-card-image {
+        height: 190px;
+    }
+
+    /* Promo Section */
+    .gh-promo-card {
+        padding: 1.25rem;
+        min-height: 360px;
+    }
+
+    .gh-promo-img {
+        max-height: 170px;
+    }
+
+    /* Industries We Serve */
+    .gh-industry-card {
+        padding: 1.5rem 1.25rem;
+    }
+
+    /* Footer */
+    .gh-footer-col {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* ----------------------------------------
+   4. Mobile Landscape & Phablets (576px to 767.98px)
+---------------------------------------- */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gh-container {
+        max-width: 540px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .gh-top-bar {
+        font-size: 0.7rem;
+    }
+
+    .gh-top-features {
+        gap: 0.5rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gh-top-divider {
+        display: none;
+    }
+
+    .gh-hero {
+        padding: 3rem 0;
+    }
+
+    .gh-hero-bg-overlay {
+        background: rgba(255, 255, 255, 0.94);
+    }
+
+    .gh-hero-title {
+        font-size: 2.2rem;
+    }
+
+    .gh-hero-description {
+        font-size: 0.95rem;
+    }
+
+    .gh-hero-features {
+        gap: 0.5rem;
+    }
+
+    .gh-feature-item {
+        width: calc(50% - 0.25rem);
+        padding: 0.5rem 0.65rem;
+    }
+
+    .gh-hero-actions {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .gh-hero-actions .btn-gh {
+        width: 100%;
+    }
+
+    /* Trust Strip */
+    .gh-trust-strip {
+        padding: 1rem 0;
+    }
+
+    .gh-trust-divider {
+        display: none !important;
+    }
+
+    /* About Section */
+    .gh-about-img-wrap {
+        height: 320px;
+    }
+
+    .gh-about-title {
+        font-size: 1.85rem;
+    }
+
+    /* Product Portfolio */
+    .gh-portfolio-card-image {
+        height: 200px;
+    }
+
+    .gh-portfolio-title {
+        font-size: 1.9rem;
+    }
+
+    /* Packaging Options */
+    .gh-packaging-card-image {
+        height: 180px;
+    }
+
+    /* Promo Section */
+    .gh-promo-card {
+        min-height: auto;
+        padding: 1.25rem;
+    }
+
+    .gh-promo-img {
+        max-height: 160px;
+    }
+
+    /* Quality & Partnership */
+    .gh-handshake-img-wrap {
+        height: 240px;
+    }
+}
+
+/* ----------------------------------------
+   5. Mobile Portrait & Extra Small (< 575.98px)
+---------------------------------------- */
+@media (max-width: 575.98px) {
+    .gh-container {
+        width: 100%;
+        padding-left: 0.85rem;
+        padding-right: 0.85rem;
+    }
+
+    /* Navbar Brand & Toggler */
+    .gh-navbar-logo {
+        height: 34px;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* Top Bar */
+    .gh-top-bar {
+        padding: 0.4rem 0;
+    }
+
+    .gh-top-features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem 0.8rem;
+    }
+
+    .gh-top-item {
+        font-size: 0.65rem;
+        letter-spacing: 0.3px;
+    }
+
+    .gh-top-divider {
+        display: none !important;
+    }
+
+    /* Hero Section */
+    .gh-hero {
+        padding: 2.25rem 0 2.75rem 0;
+        min-height: auto;
+    }
+
+    .gh-hero-bg-overlay {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.92) 100%);
+    }
+
+    .gh-hero-title {
+        font-size: 1.85rem;
+        line-height: 1.2;
+    }
+
+    .gh-hero-description {
+        font-size: 0.9rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .gh-hero-features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .gh-feature-item {
+        width: calc(50% - 0.25rem);
+        padding: 0.45rem 0.5rem;
+        gap: 0.4rem;
+    }
+
+    .gh-feature-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .gh-feature-icon svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .gh-feature-label {
+        font-size: 0.6rem;
+    }
+
+    .gh-hero-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        width: 100%;
+    }
+
+    .gh-hero-actions .btn-gh {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Trust Strip */
+    .gh-trust-strip {
+        padding: 0.75rem 0;
+    }
+
+    .gh-trust-divider {
+        display: none !important;
+    }
+
+    .gh-trust-col {
+        padding: 0.35rem 0.5rem;
+    }
+
+    .gh-trust-item {
+        gap: 0.5rem;
+    }
+
+    .gh-trust-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .gh-trust-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .gh-trust-title {
+        font-size: 0.68rem;
+        line-height: 1.15;
+    }
+
+    .gh-trust-desc {
+        font-size: 0.58rem;
+        line-height: 1.15;
+    }
+
+    /* About Section */
+    .gh-about-section {
+        padding: 2.5rem 0;
+    }
+
+    .gh-about-img-wrap {
+        height: 260px;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .gh-about-title {
+        font-size: 1.65rem;
+        line-height: 1.25;
+    }
+
+    .gh-about-intro {
+        font-size: 0.95rem;
+    }
+
+    .gh-about-point-item {
+        margin-bottom: 0.75rem;
+    }
+
+    .gh-about-point-title {
+        font-size: 0.88rem;
+    }
+
+    .gh-about-point-desc {
+        font-size: 0.8rem;
+    }
+
+    .gh-about-action .btn-gh {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Product Portfolio Section */
+    .gh-product-portfolio {
+        padding: 2.5rem 0;
+    }
+
+    .gh-portfolio-title {
+        font-size: 1.65rem;
+    }
+
+    .gh-portfolio-card {
+        padding: 0.75rem;
+        border-radius: 12px;
+    }
+
+    .gh-portfolio-card-image {
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .gh-portfolio-card-title {
+        font-size: 0.95rem;
+    }
+
+    .gh-portfolio-card-desc {
+        font-size: 0.8rem;
+    }
+
+    .btn-gh-portfolio {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+    }
+
+    /* Packaging Options Section */
+    .gh-packaging-section {
+        padding: 2.25rem 0;
+    }
+
+    .gh-packaging-title {
+        font-size: 1.45rem;
+    }
+
+    .gh-packaging-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .gh-packaging-card {
+        padding: 0.75rem;
+    }
+
+    .gh-packaging-card-title {
+        font-size: 0.85rem;
+    }
+
+    .gh-packaging-card-desc {
+        font-size: 0.75rem;
+    }
+
+    .gh-packaging-card-image {
+        height: 160px;
+    }
+
+    .gh-packaging-cta-wrap .btn-gh {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Promotional Showcase Section */
+    .gh-promo-section {
+        padding: 2.25rem 0;
+    }
+
+    .gh-promo-card {
+        padding: 1.1rem;
+        min-height: auto;
+        border-radius: 12px;
+    }
+
+    .gh-promo-title {
+        font-size: 1.35rem;
+    }
+
+    .gh-promo-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .gh-promo-desc {
+        font-size: 0.8rem;
+    }
+
+    .gh-promo-img {
+        max-height: 150px;
+    }
+
+    /* Industries We Serve Section */
+    .gh-industries-section {
+        padding: 2.5rem 0;
+    }
+
+    .gh-industries-title {
+        font-size: 1.65rem;
+    }
+
+    .gh-industries-intro {
+        font-size: 0.88rem;
+    }
+
+    .gh-industry-card {
+        padding: 1.25rem 1rem;
+        border-radius: 12px;
+    }
+
+    .gh-industry-card-title {
+        font-size: 0.88rem;
+    }
+
+    .gh-industry-card-desc {
+        font-size: 0.8rem;
+    }
+
+    .gh-industries-cta-wrap .btn-gh {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Quality & Partnership Section */
+    .gh-quality-trust-section {
+        padding: 2.5rem 0;
+    }
+
+    .gh-quality-title, .gh-partnership-title {
+        font-size: 1.45rem;
+    }
+
+    .gh-quality-desc, .gh-partnership-desc {
+        font-size: 0.85rem;
+    }
+
+    .gh-quality-badge-item {
+        padding: 0.75rem 0.5rem !important;
+    }
+
+    .gh-quality-badge-label {
+        font-size: 0.65rem !important;
+    }
+
+    .gh-partnership-list li {
+        font-size: 0.82rem;
+    }
+
+    .gh-handshake-img-wrap {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* Footer Section */
+    .gh-footer {
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .gh-footer-brand-col {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .gh-footer-social {
+        justify-content: center;
+    }
+
+    .gh-footer-col {
+        margin-bottom: 1.25rem;
+    }
+
+    .gh-footer-col-title {
+        font-size: 0.8rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .gh-footer-contact li {
+        font-size: 0.75rem;
+    }
+
+    .gh-footer-copyright {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
