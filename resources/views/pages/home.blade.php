@@ -137,7 +137,7 @@
                             <polyline points="12 5 19 12 12 19"></polyline>
                         </svg>
                     </button>
-                    <button type="button" class="btn-gh btn-gh-outline" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                    <button type="button" class="btn-gh btn-gh-outline" data-bs-toggle="modal" data-bs-target="#partnerModal">
                         PARTNER WITH US
                         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -865,7 +865,7 @@
 
         <!-- Center CTA Button -->
         <div class="text-center gh-industries-cta-wrap">
-            <button type="button" class="btn-gh-industry-cta" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+            <button type="button" class="btn-gh-industry-cta" data-bs-toggle="modal" data-bs-target="#partnerModal">
                 <span>LET'S PARTNER</span>
                 <span class="btn-gh-arrow">→</span>
             </button>
@@ -1009,7 +1009,7 @@
                         </div>
 
                         <div class="gh-partnership-cta pt-1">
-                            <button type="button" class="btn-gh-partnership" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                            <button type="button" class="btn-gh-partnership" data-bs-toggle="modal" data-bs-target="#partnerModal">
                                 <span>PARTNER WITH US</span>
                                 <span class="btn-gh-arrow">→</span>
                             </button>
