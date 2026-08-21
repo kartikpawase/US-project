@@ -914,7 +914,7 @@
             <div class="col-12 col-lg-6 gh-partnership-col">
                 <div class="gh-partnership-card h-100 p-3 p-sm-4 p-xl-5 rounded-4 bg-white shadow-sm border border-light-subtle d-flex flex-column justify-content-between">
                     <div>
-                        <h2 class="gh-partnership-title fw-bold text-gh-navy mb-2">LET'S BUILD SUCCESS TOGETHER</h2>
+                        <h2 class="gh-partnership-title fw-bold text-gh-navy mb-2">Let's build success together</h2>
                         <p class="gh-partnership-desc text-muted mb-3">
                             Partner with Guardian Health USA for innovative products, reliable manufacturing, and shared growth.
                         </p>
