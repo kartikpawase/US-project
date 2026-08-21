@@ -68,22 +68,20 @@
 
     <!-- Main Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-white gh-navbar shadow-sm py-2">
-        <div class="gh-container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
+        <div class="gh-container d-flex align-items-center justify-content-between">
             
-            <!-- Top Locked Row for Brand Logo & Mobile Toggler -->
-            <div class="gh-nav-header-row d-flex align-items-center justify-content-between w-100 w-lg-auto">
-                <a class="navbar-brand py-0 my-0 text-decoration-none d-flex align-items-center" href="{{ url('/') }}">
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Guardian Health" class="gh-navbar-logo" height="42">
-                </a>
+            <!-- Brand Logo -->
+            <a class="navbar-brand py-0 my-0 text-decoration-none d-flex align-items-center" href="{{ url('/') }}">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="Guardian Health" class="gh-navbar-logo" height="42">
+            </a>
 
-                <!-- Mobile Navbar Toggler -->
-                <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="collapse" data-bs-target="#ghNavbarContent" aria-controls="ghNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
+            <!-- Mobile Navbar Toggler -->
+            <button class="navbar-toggler border-0 shadow-none p-2" type="button" data-bs-toggle="collapse" data-bs-target="#ghNavbarContent" aria-controls="ghNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <!-- Navigation Links & CTA (Expands below top row on mobile) -->
-            <div class="collapse navbar-collapse w-100 w-lg-auto" id="ghNavbarContent">
+            <!-- Navigation Links & CTA -->
+            <div class="collapse navbar-collapse" id="ghNavbarContent">
                 <ul class="navbar-nav mx-auto align-items-lg-center gap-lg-1 gap-xl-2 py-3 py-lg-0">
                     <li class="nav-item">
                         <a class="nav-link gh-nav-link active" aria-current="page" href="{{ url('/') }}">HOME</a>
@@ -169,8 +167,8 @@
                 </ul>
 
                 <!-- Header CTA Button -->
-                <div class="d-flex align-items-center mt-3 mt-lg-0">
-                    <button type="button" class="btn-gh btn-gh-green btn-gh-sm w-100 w-lg-auto" data-bs-toggle="modal" data-bs-target="#partnerModal">
+                <div class="d-flex align-items-center mt-3 mt-lg-0 ms-lg-2">
+                    <button type="button" class="btn-gh btn-gh-green btn-gh-sm" data-bs-toggle="modal" data-bs-target="#partnerModal">
                         PARTNER WITH US
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="ms-1">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
