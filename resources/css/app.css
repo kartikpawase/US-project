@@ -3293,7 +3293,7 @@ a:hover {
 .btn-gh-partnership {
     font-family: var(--gh-font-heading);
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none !important;
     letter-spacing: 0.4px;
     border-radius: 6px;
     transition: all 0.25s ease;
