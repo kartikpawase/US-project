@@ -120,9 +120,9 @@
         <hr class="gh-footer-divider my-3">
 
         <!-- Bottom Legal / Copyright Row -->
-        <div class="pt-1 text-center">
+        <div class="pt-1 text-start">
             <div class="gh-footer-copyright">
-                &copy; {{ date('Y') }} Guardian Health USA. All Rights Reserved.
+                &copy; 2004 Guardian Health USA. All Rights Reserved.
             </div>
         </div>
     </div>
