@@ -614,40 +614,44 @@ a:hover {
 }
 
 /* ========================================
-   Trust / Value Strip (Exact Reference Design)
+   Trust / Value Strip (Brand Trust Section)
 ======================================== */
 .gh-trust-strip {
-    background-color: #021947;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 1.25rem 0;
+    background-color: var(--gh-navy);
+    padding: 1.5rem 0;
     position: relative;
     z-index: 10;
     width: 100%;
+}
+
+.gh-trust-strip .gh-container {
+    max-width: 1260px;
 }
 
 .gh-trust-row {
     align-items: center;
 }
 
-.gh-trust-col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0.85rem;
-    padding-right: 0.85rem;
+@media (min-width: 992px) {
+    .gh-trust-row {
+        flex-wrap: nowrap !important;
+    }
+    
+    .gh-trust-col {
+        flex: 1 1 0 !important;
+        max-width: none !important;
+        display: flex;
+        justify-content: center;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
 }
 
 .gh-trust-item {
     display: flex;
     align-items: center;
     gap: 0.85rem;
-    padding: 0.2rem 0;
-    transition: transform 0.25s ease;
-}
-
-.gh-trust-item:hover {
-    transform: translateY(-2px);
+    padding: 0.15rem 0;
 }
 
 .gh-trust-icon {
@@ -655,6 +659,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    width: 34px;
+    height: 34px;
 }
 
 .gh-trust-icon svg {
@@ -677,27 +683,27 @@ a:hover {
 
 .gh-trust-title {
     font-family: var(--gh-font-heading);
-    font-size: 0.82rem;
+    font-size: 0.84rem;
     font-weight: 800;
-    line-height: 1.15;
+    line-height: 1.12;
     color: #FFFFFF;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.02em;
 }
 
 .gh-trust-desc {
     font-family: var(--gh-font-body);
-    font-size: 0.72rem;
-    font-weight: 500;
-    color: #94A3B8;
-    line-height: 1.25;
+    font-size: 0.74rem;
+    font-weight: 400;
+    color: #CBD5E1;
+    line-height: 1.22;
     margin-top: 3px;
 }
 
 .gh-trust-divider {
     width: 1px;
-    height: 38px;
-    background-color: rgba(255, 255, 255, 0.2);
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.16);
     flex-shrink: 0;
 }
 
