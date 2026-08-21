@@ -85,10 +85,58 @@
                     <li class="nav-item">
                         <a class="nav-link gh-nav-link active" aria-current="page" href="{{ url('/') }}">HOME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link gh-nav-link" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                    <li class="nav-item dropdown gh-dropdown">
+                        <a class="nav-link gh-nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" id="navbarProductsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             PRODUCTS
+                            <svg class="gh-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
                         </a>
+                        <ul class="dropdown-menu gh-dropdown-menu shadow-lg border-0" aria-labelledby="navbarProductsDropdown">
+                            <li>
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                                    <span class="gh-dropdown-dot" style="background-color: #0A6EFF;"></span>
+                                    <div>
+                                        <strong class="d-block gh-dropdown-title">Hydrate Elite™</strong>
+                                        <span class="gh-dropdown-subtitle">Advanced Hydration &amp; Electrolytes</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                                    <span class="gh-dropdown-dot" style="background-color: #FF8A00;"></span>
+                                    <div>
+                                        <strong class="d-block gh-dropdown-title">Ignite™</strong>
+                                        <span class="gh-dropdown-subtitle">Clean Energy &amp; Performance</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                                    <span class="gh-dropdown-dot" style="background-color: #B28228;"></span>
+                                    <div>
+                                        <strong class="d-block gh-dropdown-title">Royal™</strong>
+                                        <span class="gh-dropdown-subtitle">Botanical Skincare &amp; Cosmetics</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item gh-dropdown-item d-flex align-items-center gap-2" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                                    <span class="gh-dropdown-dot" style="background-color: #990000;"></span>
+                                    <div>
+                                        <strong class="d-block gh-dropdown-title">Painex™</strong>
+                                        <span class="gh-dropdown-subtitle">Fast-Acting Topical Pain Relief</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li>
+                                <a class="dropdown-item gh-dropdown-item gh-dropdown-viewall d-flex align-items-center justify-content-between" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                                    <span>View All Products</span>
+                                    <span>&rarr;</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link gh-nav-link" href="#" data-bs-toggle="modal" data-bs-target="#comingSoonModal">

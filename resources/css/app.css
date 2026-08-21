@@ -411,6 +411,104 @@ a:hover {
     border-radius: 2px;
 }
 
+/* Products Dropdown */
+.gh-dropdown .dropdown-toggle::after {
+    display: none !important;
+}
+
+.gh-dropdown-arrow {
+    transition: transform 0.2s ease;
+    color: #64748b;
+}
+
+.gh-dropdown:hover .gh-dropdown-arrow,
+.gh-dropdown.show .gh-dropdown-arrow {
+    transform: rotate(180deg);
+    color: var(--gh-navy);
+}
+
+.gh-dropdown-menu {
+    border-radius: 12px;
+    padding: 0.65rem;
+    min-width: 280px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    box-shadow: 0 12px 36px rgba(11, 16, 58, 0.12) !important;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .gh-dropdown:hover > .gh-dropdown-menu {
+        display: block;
+        margin-top: 0.25rem;
+        animation: ghDropdownFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+}
+
+@keyframes ghDropdownFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gh-dropdown-item {
+    padding: 0.65rem 0.85rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.gh-dropdown-item:hover {
+    background-color: #F0FDF4;
+}
+
+.gh-dropdown-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.gh-dropdown-title {
+    font-family: var(--gh-font-heading);
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: var(--gh-navy);
+    line-height: 1.25;
+    transition: color 0.2s ease;
+}
+
+.gh-dropdown-item:hover .gh-dropdown-title {
+    color: #2e7d32;
+}
+
+.gh-dropdown-subtitle {
+    font-family: var(--gh-font-body);
+    font-size: 0.72rem;
+    color: #64748B;
+    line-height: 1.3;
+}
+
+.gh-dropdown-viewall {
+    font-family: var(--gh-font-heading);
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: #2e7d32 !important;
+    padding: 0.5rem 0.85rem;
+    letter-spacing: 0.3px;
+}
+
+.gh-dropdown-viewall:hover {
+    background-color: #EBF6EC !important;
+    color: #235927 !important;
+}
+
 /* ========================================
    Hero Section with Background Carousel
 ======================================== */
