@@ -131,14 +131,14 @@
                 <!-- CTA Button Row -->
                 <div class="gh-hero-actions d-flex align-items-center flex-wrap">
                     <a href="#" class="btn-gh btn-gh-primary">
-                        EXPLORE PRODUCTS
+                        Explore Products
                         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
                         </svg>
                     </a>
                     <button type="button" class="btn-gh btn-gh-outline" data-bs-toggle="modal" data-bs-target="#partnerModal">
-                        PARTNER WITH US
+                        Partner With Us
                         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
@@ -426,7 +426,7 @@
                             Advanced electrolyte hydration for performance and everyday wellness.
                         </p>
                         <button type="button" class="btn-gh-portfolio">
-                            <span>VIEW PRODUCTS</span>
+                            <span>View Products</span>
                             <span class="btn-gh-arrow">→</span>
                         </button>
                     </div>
@@ -445,7 +445,7 @@
                             Clean energy. Smart nutrition. Total wellness.
                         </p>
                         <button type="button" class="btn-gh-portfolio">
-                            <span>VIEW PRODUCTS</span>
+                            <span>View Products</span>
                             <span class="btn-gh-arrow">→</span>
                         </button>
                     </div>
@@ -464,7 +464,7 @@
                             Luxury skincare. Visible results. Advanced science for radiant skin.
                         </p>
                         <button type="button" class="btn-gh-portfolio">
-                            <span>VIEW PRODUCTS</span>
+                            <span>View Products</span>
                             <span class="btn-gh-arrow">→</span>
                         </button>
                     </div>
@@ -483,7 +483,7 @@
                             Fast relief you can trust. Pain reliever · Fever reducer (NSAID)
                         </p>
                         <button type="button" class="btn-gh-portfolio">
-                            <span>VIEW PRODUCTS</span>
+                            <span>View Products</span>
                             <span class="btn-gh-arrow">→</span>
                         </button>
                     </div>
@@ -502,7 +502,7 @@
                             End-to-end solutions for your brand.
                         </p>
                         <button type="button" class="btn-gh-portfolio" data-bs-toggle="modal" data-bs-target="#partnerModal">
-                            <span>LEARN MORE</span>
+                            <span>Learn More</span>
                             <span class="btn-gh-arrow">→</span>
                         </button>
                     </div>
@@ -598,7 +598,7 @@
         <!-- Centered CTA -->
         <div class="gh-packaging-cta-wrap text-center mt-3 mt-lg-4">
             <button type="button" class="btn-gh-green-cta">
-                <span>VIEW ALL HYDRATE ELITE™ PRODUCTS</span>
+                <span>View All Hydrate Elite™ Products</span>
                 <span class="btn-gh-arrow">→</span>
             </button>
         </div>
@@ -629,7 +629,7 @@
                         </div>
                         <div class="gh-promo-btn-wrap">
                             <button type="button" class="btn-gh-promo">
-                                <span>EXPLORE IGNITE+™</span>
+                                <span>Explore Ignite+™</span>
                                 <span class="gh-promo-arrow">→</span>
                             </button>
                         </div>
@@ -655,7 +655,7 @@
                         </div>
                         <div class="gh-promo-btn-wrap">
                             <button type="button" class="btn-gh-promo">
-                                <span>EXPLORE ROYAL™</span>
+                                <span>Explore Royal™</span>
                                 <span class="gh-promo-arrow">→</span>
                             </button>
                         </div>
@@ -680,7 +680,7 @@
                         </div>
                         <div class="gh-promo-btn-wrap">
                             <button type="button" class="btn-gh-promo">
-                                <span>EXPLORE PAINEX™</span>
+                                <span>Explore PainEx™</span>
                                 <span class="gh-promo-arrow">→</span>
                             </button>
                         </div>
@@ -704,7 +704,7 @@
                         </div>
                         <div class="gh-promo-btn-wrap">
                             <button type="button" class="btn-gh-promo" data-bs-toggle="modal" data-bs-target="#partnerModal">
-                                <span>LEARN MORE</span>
+                                <span>Learn More</span>
                                 <span class="gh-promo-arrow">→</span>
                             </button>
                         </div>
@@ -816,7 +816,7 @@
         <!-- Center CTA Button (GREEN) -->
         <div class="text-center gh-industries-cta-wrap mt-4 mt-lg-5">
             <button type="button" class="btn-gh-green-cta shadow-sm" data-bs-toggle="modal" data-bs-target="#partnerModal">
-                <span>LET'S PARTNER</span>
+                <span>Let's Partner</span>
                 <span class="btn-gh-arrow ms-1">→</span>
             </button>
         </div>
@@ -974,7 +974,7 @@
                     <!-- CTA Button -->
                     <div class="gh-partnership-cta pt-3">
                         <button type="button" class="btn-gh-partnership w-100 justify-content-center shadow-sm" data-bs-toggle="modal" data-bs-target="#partnerModal">
-                            <span>PARTNER WITH US</span>
+                            <span>Partner With Us</span>
                             <span class="btn-gh-arrow ms-1">&rarr;</span>
                         </button>
                     </div>

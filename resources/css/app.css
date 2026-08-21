@@ -886,7 +886,7 @@ a:hover {
     border-radius: 6px;
     border: 2px solid var(--gh-navy);
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: none;
     transition: var(--gh-transition);
 }
 
@@ -1199,13 +1199,14 @@ a:hover {
     background-color: var(--gh-navy);
     color: var(--gh-white);
     font-family: var(--gh-font-heading);
-    font-size: 0.75rem;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    padding: 0.6rem 0.75rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 0.55rem 0.75rem;
     border-radius: 6px;
     border: 1px solid var(--gh-navy);
     cursor: pointer;
+    text-transform: none;
     transition: var(--gh-transition);
     margin-top: auto;
 }
@@ -1373,9 +1374,9 @@ a:hover {
     color: #FFFFFF;
     font-family: var(--gh-font-heading);
     font-size: 0.85rem;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: none;
     padding: 0.75rem 2rem;
     border-radius: 6px;
     border: 1px solid #2E7032;
@@ -1497,11 +1498,11 @@ a:hover {
     border: 1px solid #CBD5E1;
     border-radius: 6px;
     font-family: var(--gh-font-heading);
-    font-size: 0.72rem;
-    font-weight: 800;
-    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: none;
     letter-spacing: 0.3px;
-    padding: 0.42rem 0.85rem;
+    padding: 0.45rem 0.85rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     cursor: pointer;
     transition: all 0.2s ease;
@@ -1788,7 +1789,7 @@ a:hover {
     border-radius: 6px;
     border: 2px solid var(--gh-navy);
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: none;
     text-decoration: none;
     transition: var(--gh-transition);
 }
@@ -2969,11 +2970,13 @@ a:hover {
     }
 
     .btn-gh-portfolio {
-        padding: 0.35rem 0.5rem;
-        font-size: 0.68rem;
-        border-radius: 4px;
+        padding: 0.42rem 0.5rem;
+        font-size: 0.72rem;
+        font-weight: 700;
+        border-radius: 6px;
         width: 100%;
         justify-content: center;
+        text-transform: none;
     }
 
     /* Packaging Options Section */
