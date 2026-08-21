@@ -2938,7 +2938,7 @@ a:hover {
 
     /* Product Portfolio Section */
     .gh-product-portfolio {
-        padding: 2.5rem 0;
+        padding: 2.25rem 0;
     }
 
     .gh-portfolio-title {
@@ -2946,26 +2946,34 @@ a:hover {
     }
 
     .gh-portfolio-card {
-        padding: 0.75rem;
-        border-radius: 12px;
+        padding: 0.6rem;
+        border-radius: 10px;
     }
 
     .gh-portfolio-card-image {
-        height: 180px;
-        border-radius: 8px;
+        height: 125px;
+        border-radius: 6px;
+        margin-bottom: 0.5rem;
     }
 
     .gh-portfolio-card-title {
-        font-size: 0.95rem;
+        font-size: 0.78rem;
+        line-height: 1.2;
+        margin-bottom: 0.35rem;
     }
 
     .gh-portfolio-card-desc {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        line-height: 1.35;
+        margin-bottom: 0.5rem;
     }
 
     .btn-gh-portfolio {
-        padding: 0.5rem 0.75rem;
-        font-size: 0.75rem;
+        padding: 0.35rem 0.5rem;
+        font-size: 0.68rem;
+        border-radius: 4px;
+        width: 100%;
+        justify-content: center;
     }
 
     /* Packaging Options Section */
@@ -2982,19 +2990,28 @@ a:hover {
     }
 
     .gh-packaging-card {
-        padding: 0.75rem;
+        padding: 0.6rem 0.5rem;
+        border-radius: 10px;
+    }
+
+    .gh-packaging-card-header {
+        margin-bottom: 0.4rem;
     }
 
     .gh-packaging-card-title {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
+        line-height: 1.2;
+        margin-bottom: 0.15rem;
     }
 
     .gh-packaging-card-desc {
-        font-size: 0.75rem;
+        font-size: 0.68rem;
+        line-height: 1.25;
     }
 
     .gh-packaging-card-image {
-        height: 160px;
+        height: 115px;
+        border-radius: 6px;
     }
 
     .gh-packaging-cta-wrap .btn-gh {
@@ -3031,7 +3048,7 @@ a:hover {
 
     /* Industries We Serve Section */
     .gh-industries-section {
-        padding: 2.5rem 0;
+        padding: 2.25rem 0;
     }
 
     .gh-industries-title {
@@ -3039,20 +3056,38 @@ a:hover {
     }
 
     .gh-industries-intro {
-        font-size: 0.88rem;
+        font-size: 0.85rem;
     }
 
     .gh-industry-card {
-        padding: 1.25rem 1rem;
-        border-radius: 12px;
+        padding: 0.85rem 0.6rem;
+        border-radius: 10px;
+    }
+
+    .gh-industry-img-wrap {
+        height: 115px;
+        margin-bottom: 0.5rem;
+    }
+
+    .gh-industry-img {
+        max-height: 105px;
     }
 
     .gh-industry-card-title {
-        font-size: 0.88rem;
+        font-size: 0.75rem;
+        line-height: 1.2;
+        letter-spacing: 0.2px;
+    }
+
+    .gh-industry-card-divider {
+        width: 20px;
+        height: 2px;
+        margin: 0.4rem auto 0.45rem;
     }
 
     .gh-industry-card-desc {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        line-height: 1.35;
     }
 
     .gh-industries-cta-wrap .btn-gh {
