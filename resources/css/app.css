@@ -3152,7 +3152,6 @@ a:hover {
     .btn-gh-green,
     .btn-gh-portfolio,
     .btn-gh-promo,
-    .btn-gh-green-cta,
     .btn-gh-industry-cta,
     .btn-gh-partnership {
         font-size: clamp(0.7rem, 3.2vw, 0.8rem) !important;
@@ -3161,6 +3160,18 @@ a:hover {
         text-align: center !important;
         white-space: normal !important;
         word-break: break-word !important;
+    }
+
+    /* Standard inline size for View All Hydrate Elite Products button on mobile */
+    .btn-gh-green-cta {
+        width: auto !important;
+        max-width: 95% !important;
+        padding: 0.65rem 1.15rem !important;
+        font-size: clamp(0.68rem, 3vw, 0.78rem) !important;
+        white-space: nowrap !important;
+        display: inline-flex !important;
+        margin: 0 auto !important;
+        text-align: center !important;
     }
 
     .gh-hero-actions {

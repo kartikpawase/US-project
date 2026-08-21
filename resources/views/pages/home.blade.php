@@ -596,7 +596,7 @@
         </div>
 
         <!-- Centered CTA -->
-        <div class="gh-packaging-cta-wrap">
+        <div class="gh-packaging-cta-wrap text-center mt-3 mt-lg-4">
             <button type="button" class="btn-gh-green-cta">
                 <span>VIEW ALL HYDRATE ELITE™ PRODUCTS</span>
                 <span class="btn-gh-arrow">→</span>
