@@ -151,114 +151,6 @@
 </section>
 
 <!-- ========================================
-     About Us Section (Manufacturing Excellence. Healthier Futures.)
-======================================== -->
-<section class="gh-about-section" id="about-us">
-    <div class="gh-container">
-        <div class="row g-4 g-lg-5 align-items-center gh-about-row">
-            
-            <!-- Left Column: Manufacturing Facility Image -->
-            <div class="col-12 col-lg-5 gh-about-img-col">
-                <div class="gh-about-img-wrap">
-                    <img src="{{ asset('assets/images/about/about-us-manufacturing.webp') }}" 
-                         alt="Guardian Health USA cGMP Manufacturing Facility" 
-                         class="gh-about-img" 
-                         loading="lazy">
-                </div>
-            </div>
-
-            <!-- Right Column: About Us Content -->
-            <div class="col-12 col-lg-7 gh-about-content-col">
-                <div class="gh-about-content">
-                    
-                    <!-- Section Eyebrow / Label -->
-                    <div class="gh-about-eyebrow-wrap">
-                        <span class="gh-about-eyebrow">ABOUT US</span>
-                        <div class="gh-about-eyebrow-bar"></div>
-                    </div>
-
-                    <!-- Main Heading -->
-                    <h2 class="gh-about-title">
-                        Manufacturing Excellence.<br>
-                        Healthier Futures.
-                    </h2>
-
-                    <!-- Introductory Paragraph -->
-                    <p class="gh-about-intro">
-                        We are a cGMP-certified manufacturing partner committed to producing high-quality health and wellness products. Our focus is simple—deliver science-backed solutions, with consistency, care, and integrity.
-                    </p>
-
-                    <!-- Key Value Points (5 Items with Subtle Separator Lines) -->
-                    <div class="gh-about-points">
-                        
-                        <!-- Point 1: Advanced Science -->
-                        <div class="gh-about-point-item">
-                            <span class="gh-about-bullet"></span>
-                            <div class="gh-about-point-text">
-                                <strong class="gh-about-point-title">Advanced Science</strong>
-                                <span class="gh-about-point-sep">|</span>
-                                <span class="gh-about-point-desc">Research-driven formulations using premium, clinically relevant ingredients.</span>
-                            </div>
-                        </div>
-
-                        <!-- Point 2: Quality You Can Trust -->
-                        <div class="gh-about-point-item">
-                            <span class="gh-about-bullet"></span>
-                            <div class="gh-about-point-text">
-                                <strong class="gh-about-point-title">Quality You Can Trust</strong>
-                                <span class="gh-about-point-sep">|</span>
-                                <span class="gh-about-point-desc">cGMP-certified facility with rigorous testing and quality controls at every step.</span>
-                            </div>
-                        </div>
-
-                        <!-- Point 3: Flexible Solutions -->
-                        <div class="gh-about-point-item">
-                            <span class="gh-about-bullet"></span>
-                            <div class="gh-about-point-text">
-                                <strong class="gh-about-point-title">Flexible Solutions</strong>
-                                <span class="gh-about-point-sep">|</span>
-                                <span class="gh-about-point-desc">Custom formulations and scalable manufacturing to support brands of all sizes.</span>
-                            </div>
-                        </div>
-
-                        <!-- Point 4: Packaging Expertise -->
-                        <div class="gh-about-point-item">
-                            <span class="gh-about-bullet"></span>
-                            <div class="gh-about-point-text">
-                                <strong class="gh-about-point-title">Packaging Expertise</strong>
-                                <span class="gh-about-point-sep">|</span>
-                                <span class="gh-about-point-desc">Wide range of packaging formats including stick packs, blister packs, bottles, and more.</span>
-                            </div>
-                        </div>
-
-                        <!-- Point 5: Built for Partnership -->
-                        <div class="gh-about-point-item">
-                            <span class="gh-about-bullet"></span>
-                            <div class="gh-about-point-text">
-                                <strong class="gh-about-point-title">Built for Partnership</strong>
-                                <span class="gh-about-point-sep">|</span>
-                                <span class="gh-about-point-desc">Transparent communication, dependable execution, and long-term partnership approach.</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- CTA Button -->
-                    <div class="gh-about-action">
-                        <button type="button" class="btn-gh-about" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
-                            <span>LEARN MORE</span>
-                            <span class="btn-gh-arrow">→</span>
-                        </button>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- ========================================
      Trust / Value Strip (Exact Reference Design)
 ======================================== -->
 <section class="gh-trust-strip">
@@ -392,6 +284,114 @@
                         <span class="gh-trust-title">MADE IN<br>THE USA</span>
                         <span class="gh-trust-desc">Manufactured in<br>Our U.S. Facility</span>
                     </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     About Us Section (Manufacturing Excellence. Healthier Futures.)
+======================================== -->
+<section class="gh-about-section" id="about-us">
+    <div class="gh-container">
+        <div class="row g-4 g-lg-5 align-items-center gh-about-row">
+            
+            <!-- Left Column: Manufacturing Facility Image -->
+            <div class="col-12 col-lg-5 gh-about-img-col">
+                <div class="gh-about-img-wrap">
+                    <img src="{{ asset('assets/images/about/about-us-manufacturing.webp') }}" 
+                         alt="Guardian Health USA cGMP Manufacturing Facility" 
+                         class="gh-about-img" 
+                         loading="lazy">
+                </div>
+            </div>
+
+            <!-- Right Column: About Us Content -->
+            <div class="col-12 col-lg-7 gh-about-content-col">
+                <div class="gh-about-content">
+                    
+                    <!-- Section Eyebrow / Label -->
+                    <div class="gh-about-eyebrow-wrap">
+                        <span class="gh-about-eyebrow">ABOUT US</span>
+                        <div class="gh-about-eyebrow-bar"></div>
+                    </div>
+
+                    <!-- Main Heading -->
+                    <h2 class="gh-about-title">
+                        Manufacturing Excellence.<br>
+                        Healthier Futures.
+                    </h2>
+
+                    <!-- Introductory Paragraph -->
+                    <p class="gh-about-intro">
+                        We are a cGMP-certified manufacturing partner committed to producing high-quality health and wellness products. Our focus is simple—deliver science-backed solutions, with consistency, care, and integrity.
+                    </p>
+
+                    <!-- Key Value Points (5 Items with Subtle Separator Lines) -->
+                    <div class="gh-about-points">
+                        
+                        <!-- Point 1: Advanced Science -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Advanced Science</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Research-driven formulations using premium, clinically relevant ingredients.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 2: Quality You Can Trust -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Quality You Can Trust</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">cGMP-certified facility with rigorous testing and quality controls at every step.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 3: Flexible Solutions -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Flexible Solutions</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Custom formulations and scalable manufacturing to support brands of all sizes.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 4: Packaging Expertise -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Packaging Expertise</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Wide range of packaging formats including stick packs, blister packs, bottles, and more.</span>
+                            </div>
+                        </div>
+
+                        <!-- Point 5: Built for Partnership -->
+                        <div class="gh-about-point-item">
+                            <span class="gh-about-bullet"></span>
+                            <div class="gh-about-point-text">
+                                <strong class="gh-about-point-title">Built for Partnership</strong>
+                                <span class="gh-about-point-sep">|</span>
+                                <span class="gh-about-point-desc">Transparent communication, dependable execution, and long-term partnership approach.</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="gh-about-action">
+                        <button type="button" class="btn-gh-about" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
+                            <span>LEARN MORE</span>
+                            <span class="btn-gh-arrow">→</span>
+                        </button>
+                    </div>
+
                 </div>
             </div>
 
