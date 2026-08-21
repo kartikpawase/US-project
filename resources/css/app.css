@@ -2810,8 +2810,12 @@ a:hover {
         min-height: auto;
     }
 
+    .gh-hero-bg-carousel {
+        opacity: 0.4 !important;
+    }
+
     .gh-hero-bg-overlay {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.92) 100%);
+        background: rgba(255, 255, 255, 0.6) !important;
     }
 
     .gh-hero-title {
