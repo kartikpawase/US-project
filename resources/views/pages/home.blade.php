@@ -612,10 +612,10 @@
 ======================================== -->
 <section class="gh-promo-section py-4 py-lg-5" id="promotions">
     <div class="gh-container">
-        <div class="row g-3 g-xl-4 gh-promo-row">
+        <div class="row g-2 g-sm-3 g-xl-4 gh-promo-row">
             
             <!-- CARD 01: IGNITE+™ ENERGY DRINK -->
-            <div class="col-12 col-sm-6 col-lg-3 gh-promo-col">
+            <div class="col-6 col-sm-6 col-lg-3 gh-promo-col">
                 <div class="gh-promo-card gh-promo-card-ignite">
                     <div class="gh-promo-card-body">
                         <div class="gh-promo-text-wrap">
@@ -641,7 +641,7 @@
             </div>
 
             <!-- CARD 02: ROYAL™ SKINCARE -->
-            <div class="col-12 col-sm-6 col-lg-3 gh-promo-col">
+            <div class="col-6 col-sm-6 col-lg-3 gh-promo-col">
                 <div class="gh-promo-card gh-promo-card-royal">
                     <div class="gh-promo-card-body">
                         <div class="gh-promo-text-wrap">
@@ -667,7 +667,7 @@
             </div>
 
             <!-- CARD 03: PAINEX™ PAIN RELIEVER -->
-            <div class="col-12 col-sm-6 col-lg-3 gh-promo-col">
+            <div class="col-6 col-sm-6 col-lg-3 gh-promo-col">
                 <div class="gh-promo-card gh-promo-card-painex">
                     <div class="gh-promo-card-body">
                         <div class="gh-promo-text-wrap">
@@ -692,7 +692,7 @@
             </div>
 
             <!-- CARD 04: MANUFACTURING & PRIVATE LABEL -->
-            <div class="col-12 col-sm-6 col-lg-3 gh-promo-col">
+            <div class="col-6 col-sm-6 col-lg-3 gh-promo-col">
                 <div class="gh-promo-card gh-promo-card-mfg">
                     <div class="gh-promo-card-body">
                         <div class="gh-promo-text-wrap">

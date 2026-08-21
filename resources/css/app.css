@@ -3028,25 +3028,55 @@ a:hover {
     }
 
     .gh-promo-card {
-        padding: 1.1rem;
+        padding: 0.75rem 0.65rem;
+        height: 245px;
         min-height: auto;
-        border-radius: 12px;
+        border-radius: 10px;
+    }
+
+    .gh-promo-text-wrap {
+        max-width: 100%;
     }
 
     .gh-promo-title {
-        font-size: 1.35rem;
+        font-size: 0.82rem;
+        line-height: 1.15;
+        margin-bottom: 0.1rem;
     }
 
     .gh-promo-subtitle {
-        font-size: 0.85rem;
+        font-size: 0.62rem;
+        margin-bottom: 0.25rem;
     }
 
     .gh-promo-desc {
-        font-size: 0.8rem;
+        font-size: 0.62rem;
+        line-height: 1.25;
+    }
+
+    .btn-gh-promo {
+        font-size: 0.62rem;
+        padding: 0.35rem 0.45rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .gh-promo-img-wrap {
+        position: absolute;
+        right: -5px;
+        bottom: -5px;
+        width: 60%;
+        height: 60%;
+        pointer-events: none;
+        z-index: 1;
     }
 
     .gh-promo-img {
-        max-height: 150px;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: right bottom;
+        max-height: 100%;
     }
 
     /* Industries We Serve Section */
