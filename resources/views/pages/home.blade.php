@@ -346,7 +346,7 @@
                         <div class="gh-about-point-item">
                             <span class="gh-about-bullet"></span>
                             <div class="gh-about-point-text">
-                                <strong class="gh-about-point-title">Quality You Can Trust</strong>
+                                <strong class="gh-about-point-title">Quality you can trust</strong>
                                 <span class="gh-about-point-sep">|</span>
                                 <span class="gh-about-point-desc">cGMP-certified facility with rigorous testing and quality controls at every step.</span>
                             </div>
@@ -835,7 +835,7 @@
             <div class="col-12 col-lg-6 gh-quality-col">
                 <div class="gh-quality-card h-100 d-flex flex-column justify-content-between p-3 p-sm-4 p-xl-5 rounded-4 bg-white shadow-sm border border-light-subtle">
                     <div>
-                        <h2 class="gh-quality-title fw-bold text-gh-navy mb-2">QUALITY YOU CAN TRUST</h2>
+                        <h2 class="gh-quality-title fw-bold text-gh-navy mb-2">Quality you can trust</h2>
                         <p class="gh-quality-desc text-muted mb-3 mb-sm-4">
                             We are committed to the highest quality standards in every product we create, enforcing cGMP regulations and continuous lab validation.
                         </p>

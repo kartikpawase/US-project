@@ -3212,8 +3212,14 @@ a:hover {
         padding: 2.5rem 0;
     }
 
-    .gh-quality-title, .gh-partnership-title {
+    .gh-partnership-title {
         font-size: 1.45rem;
+    }
+
+    .gh-quality-title {
+        font-size: clamp(0.95rem, 4.4vw, 1.15rem);
+        white-space: nowrap;
+        text-transform: none;
     }
 
     .gh-quality-desc, .gh-partnership-desc {
@@ -3524,7 +3530,9 @@ a:hover {
     }
     
     .gh-quality-title {
-        font-size: 1.45rem !important;
+        font-size: clamp(0.95rem, 4.4vw, 1.15rem) !important;
+        white-space: nowrap !important;
+        text-transform: none !important;
     }
 
     .gh-handshake-img-wrap {
